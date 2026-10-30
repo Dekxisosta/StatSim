@@ -1,0 +1,1497 @@
+{
+  "type": "statsim-save",
+  "version": 1,
+  "savedAt": "2026-10-30T00:00:00.000Z",
+  "preset": {
+    "title": "Vocaloid",
+    "emoji": "🎤",
+    "blurb": "Produce hits, unlock the voicebank lineup and sell out Magical Mirai.",
+    "order": 4
+  },
+  "sim": {
+    "id": "sim-vocaloid",
+    "name": "Vocaloid Sim",
+    "titles": {
+      "shop": "Studio Gear",
+      "power": "Effects",
+      "mult": "Fame",
+      "weather": "Stage Lighting",
+      "pets": "Plushies"
+    },
+    "cur": 500,
+    "gems": 50,
+    "interval": 1,
+    "curName": "Notes",
+    "curIcon": "🎵",
+    "gemName": "Leeks",
+    "gemIcon": "🥬",
+    "shop": [
+      {
+        "id": "shop-old-laptop",
+        "name": "Old Laptop",
+        "icon": "💻",
+        "val": 5,
+        "cost": 27,
+        "owned": 0
+      },
+      {
+        "id": "shop-usb-mic",
+        "name": "USB Mic",
+        "icon": "🎙️",
+        "val": 24,
+        "cost": 280,
+        "owned": 0
+      },
+      {
+        "id": "shop-midi-keyboard",
+        "name": "MIDI Keyboard",
+        "icon": "🎹",
+        "val": 110,
+        "cost": 2900,
+        "owned": 0
+      },
+      {
+        "id": "shop-studio-headphones",
+        "name": "Studio Headphones",
+        "icon": "🎧",
+        "val": 500,
+        "cost": 31000,
+        "owned": 0
+      },
+      {
+        "id": "shop-audio-interface",
+        "name": "Audio Interface",
+        "icon": "🎛️",
+        "val": 2200,
+        "cost": 320000,
+        "owned": 0
+      },
+      {
+        "id": "shop-studio-monitors",
+        "name": "Studio Monitors",
+        "icon": "🔊",
+        "val": 9700,
+        "cost": 3200000,
+        "owned": 0
+      },
+      {
+        "id": "shop-daw-license",
+        "name": "DAW License",
+        "icon": "📀",
+        "val": 42000,
+        "cost": 35000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-vocaloid-editor",
+        "name": "Vocaloid Editor",
+        "icon": "🎼",
+        "val": 180000,
+        "cost": 380000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-drum-machine",
+        "name": "Drum Machine",
+        "icon": "🥁",
+        "val": 820000,
+        "cost": 4000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-orchestra-library",
+        "name": "Orchestra Library",
+        "icon": "🎻",
+        "val": 3600000,
+        "cost": 45000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-mixing-console",
+        "name": "Mixing Console",
+        "icon": "🎚️",
+        "val": 16000000,
+        "cost": 490000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-stage-lights",
+        "name": "Stage Lights",
+        "icon": "🪩",
+        "val": 69000000,
+        "cost": 5300000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-hologram-projector",
+        "name": "Hologram Projector",
+        "icon": "💡",
+        "val": 300000000,
+        "cost": 58000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-concert-rig",
+        "name": "Concert Rig",
+        "icon": "🏟️",
+        "val": 1400000000,
+        "cost": 620000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-satellite-broadcast",
+        "name": "Satellite Broadcast",
+        "icon": "🛰️",
+        "val": 6300000000,
+        "cost": 7100000000000000.0,
+        "owned": 0
+      },
+      {
+        "id": "shop-world-tour-rig",
+        "name": "World Tour Rig",
+        "icon": "🌍",
+        "val": 30000000000,
+        "cost": 8.1e+16,
+        "owned": 0
+      }
+    ],
+    "equipped": null,
+    "powers": [
+      {
+        "id": "pow-reverb",
+        "name": "Reverb",
+        "icon": "🎚️",
+        "mult": 1.5,
+        "cost": 5000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-auto-tune",
+        "name": "Auto-Tune",
+        "icon": "🎤",
+        "mult": 2,
+        "cost": 10,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-compressor",
+        "name": "Compressor",
+        "icon": "🗜️",
+        "mult": 2,
+        "cost": 50000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-sidechain",
+        "name": "Sidechain",
+        "icon": "🔁",
+        "mult": 2,
+        "cost": 2000000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-catchy-hook",
+        "name": "Catchy Hook",
+        "icon": "🪝",
+        "mult": 4,
+        "cost": 60,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-viral-dance",
+        "name": "Viral Dance",
+        "icon": "💃",
+        "mult": 5,
+        "cost": 100,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-trending-1",
+        "name": "Trending #1",
+        "icon": "📈",
+        "mult": 6,
+        "cost": 180,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-million-views",
+        "name": "Million Views",
+        "icon": "👀",
+        "mult": 8,
+        "cost": 350,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-hall-of-fame",
+        "name": "Hall of Fame",
+        "icon": "🏛️",
+        "mult": 10,
+        "cost": 600,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-mastering-chain",
+        "name": "Mastering Chain",
+        "icon": "🎶",
+        "mult": 15,
+        "cost": 1800,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-global-hit",
+        "name": "Global Hit",
+        "icon": "🌐",
+        "mult": 25,
+        "cost": 3000,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-eternal-classic",
+        "name": "Eternal Classic",
+        "icon": "♾️",
+        "mult": 50,
+        "cost": 10000,
+        "pay": "gems",
+        "bought": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "grp-voicebanks",
+        "name": "🎤 Voicebanks",
+        "color": "#4fe0d0",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-voicebanks-1",
+            "name": "MEIKO",
+            "cost": 480,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-voicebanks-2",
+            "name": "KAITO",
+            "cost": 1900,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-voicebanks-3",
+            "name": "Megurine Luka",
+            "cost": 9500,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-voicebanks-4",
+            "name": "Kagamine Rin",
+            "cost": 48000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-voicebanks-5",
+            "name": "Kagamine Len",
+            "cost": 240000,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-voicebanks-6",
+            "name": "GUMI",
+            "cost": 1400000,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-voicebanks-7",
+            "name": "IA",
+            "cost": 9500000,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-voicebanks-8",
+            "name": "Hatsune Miku",
+            "cost": 76000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-hits",
+        "name": "🎶 Hits",
+        "color": "#ff8ad8",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-hits-1",
+            "name": "Ievan Polkka",
+            "cost": 5,
+            "val": 0.25,
+            "bought": false
+          },
+          {
+            "id": "grp-hits-2",
+            "name": "Melt",
+            "cost": 15,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-hits-3",
+            "name": "World is Mine",
+            "cost": 40,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-hits-4",
+            "name": "Love is War",
+            "cost": 100,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-hits-5",
+            "name": "Rolling Girl",
+            "cost": 250,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-hits-6",
+            "name": "Senbonzakura",
+            "cost": 600,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-hits-7",
+            "name": "Tell Your World",
+            "cost": 1500,
+            "val": 16,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-platforms",
+        "name": "📺 Platforms",
+        "color": "#ff6b6b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-platforms-1",
+            "name": "Niconico",
+            "cost": 950,
+            "val": 0.3,
+            "bought": false
+          },
+          {
+            "id": "grp-platforms-2",
+            "name": "YouTube",
+            "cost": 7600,
+            "val": 0.6,
+            "bought": false
+          },
+          {
+            "id": "grp-platforms-3",
+            "name": "SoundCloud",
+            "cost": 66000,
+            "val": 1.2,
+            "bought": false
+          },
+          {
+            "id": "grp-platforms-4",
+            "name": "Bilibili",
+            "cost": 570000,
+            "val": 2.4,
+            "bought": false
+          },
+          {
+            "id": "grp-platforms-5",
+            "name": "Spotify",
+            "cost": 4800000,
+            "val": 4.8,
+            "bought": false
+          },
+          {
+            "id": "grp-platforms-6",
+            "name": "TikTok",
+            "cost": 43000000,
+            "val": 9.6,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-venues",
+        "name": "🏟️ Venues",
+        "color": "#ffd93b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-venues-1",
+            "name": "Coffee Shop Gig",
+            "cost": 950,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-venues-2",
+            "name": "Livehouse",
+            "cost": 24000,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-venues-3",
+            "name": "Club Stage",
+            "cost": 480000,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-venues-4",
+            "name": "Zepp Hall",
+            "cost": 9500000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-venues-5",
+            "name": "Music Festival",
+            "cost": 190000000,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-venues-6",
+            "name": "Magical Mirai",
+            "cost": 3800000000,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-venues-7",
+            "name": "Miku Expo",
+            "cost": 95000000000,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-venues-8",
+            "name": "Symphony Hall",
+            "cost": 2800000000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-awards",
+        "name": "🏆 Awards",
+        "color": "#7df9ff",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-awards-1",
+            "name": "Bronze Medal",
+            "cost": 30,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-awards-2",
+            "name": "Silver Play Button",
+            "cost": 120,
+            "val": 1.5,
+            "bought": false
+          },
+          {
+            "id": "grp-awards-3",
+            "name": "Gold Play Button",
+            "cost": 400,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-awards-4",
+            "name": "Diamond Play Button",
+            "cost": 1200,
+            "val": 10,
+            "bought": false
+          },
+          {
+            "id": "grp-awards-5",
+            "name": "Hall of Legends",
+            "cost": 4000,
+            "val": 25,
+            "bought": false
+          }
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "id": "wx-soundcheck",
+        "name": "Soundcheck",
+        "icon": "🎶",
+        "fx": "none",
+        "mult": 1.5,
+        "duration": 120
+      },
+      {
+        "id": "wx-spotlight",
+        "name": "Spotlight",
+        "icon": "💡",
+        "fx": "sun",
+        "mult": 2,
+        "duration": 60
+      },
+      {
+        "id": "wx-glowstick-shower",
+        "name": "Glowstick Shower",
+        "icon": "💦",
+        "fx": "rain",
+        "mult": 3,
+        "duration": 45
+      },
+      {
+        "id": "wx-encore-thunder",
+        "name": "Encore Thunder",
+        "icon": "🎆",
+        "fx": "storm",
+        "mult": 6,
+        "duration": 30
+      },
+      {
+        "id": "wx-penlight-sea",
+        "name": "Penlight Sea",
+        "icon": "🌈",
+        "fx": "none",
+        "mult": 5,
+        "duration": 25
+      },
+      {
+        "id": "wx-golden-hour-set",
+        "name": "Golden Hour Set",
+        "icon": "🌅",
+        "fx": "sun",
+        "mult": 7,
+        "duration": 30
+      },
+      {
+        "id": "wx-senbonzakura-petals",
+        "name": "Senbonzakura Petals",
+        "icon": "🌸",
+        "fx": "snow",
+        "mult": 8,
+        "duration": 20
+      },
+      {
+        "id": "wx-teal-wave",
+        "name": "Teal Wave",
+        "icon": "💙",
+        "fx": "none",
+        "mult": 10,
+        "duration": 20
+      },
+      {
+        "id": "wx-fireworks-finale",
+        "name": "Fireworks Finale",
+        "icon": "🎇",
+        "fx": "storm",
+        "mult": 12,
+        "duration": 15
+      },
+      {
+        "id": "wx-viral-moment",
+        "name": "Viral Moment",
+        "icon": "🔊",
+        "fx": "none",
+        "mult": 20,
+        "duration": 10
+      },
+      {
+        "id": "wx-snow-festival",
+        "name": "Snow Festival",
+        "icon": "❄️",
+        "fx": "snow",
+        "mult": 25,
+        "duration": 15
+      },
+      {
+        "id": "wx-miku-day-3-9",
+        "name": "Miku Day (3/9)",
+        "icon": "🌟",
+        "fx": "sun",
+        "mult": 100,
+        "duration": 5
+      }
+    ],
+    "activeWeather": null,
+    "weatherLeft": 0,
+    "runtime": 0,
+    "totalRuntime": 0,
+    "rb": {
+      "count": 0,
+      "baseCost": 1000000,
+      "scale": 2.5,
+      "bonus": 1,
+      "gems": 25,
+      "resetShop": true,
+      "resetMult": false
+    },
+    "quests": [
+      {
+        "id": "q-first-upload",
+        "name": "First Upload",
+        "metric": "earned",
+        "target": 100,
+        "reward": 50,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-ten-thousand-plays",
+        "name": "Ten Thousand Plays",
+        "metric": "earned",
+        "target": 10000,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-million-plays",
+        "name": "Million Plays",
+        "metric": "earned",
+        "target": 1000000,
+        "reward": 25,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-hundred-million",
+        "name": "Hundred Million",
+        "metric": "earned",
+        "target": 100000000,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-ten-billion-views",
+        "name": "Ten Billion Views",
+        "metric": "earned",
+        "target": 10000000000.0,
+        "reward": 400,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-eternal-legend",
+        "name": "Eternal Legend",
+        "metric": "earned",
+        "target": 10000000000000.0,
+        "reward": 1500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-tap-the-beat",
+        "name": "Tap the Beat",
+        "metric": "manual",
+        "target": 25,
+        "reward": 1,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-beat-master",
+        "name": "Beat Master",
+        "metric": "manual",
+        "target": 250,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-drumstick-wrist",
+        "name": "Drumstick Wrist",
+        "metric": "manual",
+        "target": 2500,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-autoplay-playlist",
+        "name": "Autoplay Playlist",
+        "metric": "auto",
+        "target": 100,
+        "reward": 200,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-looped-forever",
+        "name": "Looped Forever",
+        "metric": "auto",
+        "target": 5000,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-never-stops",
+        "name": "Never Stops",
+        "metric": "auto",
+        "target": 100000,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-studio-upgrade",
+        "name": "Studio Upgrade",
+        "metric": "shopBuys",
+        "target": 3,
+        "reward": 100,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-gear-head",
+        "name": "Gear Head",
+        "metric": "shopBuys",
+        "target": 9,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-studio-rat",
+        "name": "Studio Rat",
+        "metric": "shopBuys",
+        "target": 18,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-dream-studio",
+        "name": "Dream Studio",
+        "metric": "shopBuys",
+        "target": 54,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-voice-collector",
+        "name": "Voice Collector",
+        "metric": "multBuys",
+        "target": 3,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-chart-climber",
+        "name": "Chart Climber",
+        "metric": "multBuys",
+        "target": 15,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-whole-lineup",
+        "name": "Whole Lineup",
+        "metric": "multBuys",
+        "target": 40,
+        "reward": 120,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-first-effect",
+        "name": "First Effect",
+        "metric": "powerBuys",
+        "target": 1,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-fx-rack",
+        "name": "FX Rack",
+        "metric": "powerBuys",
+        "target": 6,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-fully-mastered",
+        "name": "Fully Mastered",
+        "metric": "powerBuys",
+        "target": 14,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-first-capsule",
+        "name": "First Capsule",
+        "metric": "hatches",
+        "target": 3,
+        "reward": 2,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-gacha-fan",
+        "name": "Gacha Fan",
+        "metric": "hatches",
+        "target": 25,
+        "reward": 15,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-collector",
+        "name": "Collector",
+        "metric": "hatches",
+        "target": 100,
+        "reward": 60,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-merch-hoarder",
+        "name": "Merch Hoarder",
+        "metric": "hatches",
+        "target": 500,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-shelf-overflow",
+        "name": "Shelf Overflow",
+        "metric": "hatches",
+        "target": 2000,
+        "reward": 1000,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-next-generation",
+        "name": "Next Generation",
+        "metric": "rebirth",
+        "target": 1,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-encore",
+        "name": "Encore",
+        "metric": "rebirth",
+        "target": 5,
+        "reward": 75,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-eternal-diva",
+        "name": "Eternal Diva",
+        "metric": "rebirth",
+        "target": 20,
+        "reward": 500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-short-set-2-min",
+        "name": "Short Set (2 min)",
+        "metric": "runtime",
+        "target": 120,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-concert-10-min",
+        "name": "Concert (10 min)",
+        "metric": "runtime",
+        "target": 600,
+        "reward": 30,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-festival-day-1-hr",
+        "name": "Festival Day (1 hr)",
+        "metric": "runtime",
+        "target": 3600,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      }
+    ],
+    "petGroups": [
+      {
+        "id": "egg-chibi-capsule",
+        "name": "Chibi Capsule",
+        "icon": "🥚",
+        "color": "#4fe0d0",
+        "cost": 90,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-chibi-capsule-mini-leek",
+            "name": "Mini Leek",
+            "icon": "🥬",
+            "boost": 0.1,
+            "chance": 55
+          },
+          {
+            "id": "egg-chibi-capsule-chibi-rin",
+            "name": "Chibi Rin",
+            "icon": "🍊",
+            "boost": 0.15,
+            "chance": 25
+          },
+          {
+            "id": "egg-chibi-capsule-chibi-len",
+            "name": "Chibi Len",
+            "icon": "🍌",
+            "boost": 0.25,
+            "chance": 12
+          },
+          {
+            "id": "egg-chibi-capsule-hachune-miku",
+            "name": "Hachune Miku",
+            "icon": "🌀",
+            "boost": 0.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-chibi-capsule-chibi-miku",
+            "name": "Chibi Miku",
+            "icon": "💙",
+            "boost": 1.5,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 20,
+          "steep": 0.2,
+          "hard": 40,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-plush-capsule",
+        "name": "Plush Capsule",
+        "icon": "🧸",
+        "color": "#ff8ad8",
+        "cost": 2200,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-plush-capsule-tako-luka",
+            "name": "Tako Luka",
+            "icon": "🐙",
+            "boost": 0.3,
+            "chance": 50
+          },
+          {
+            "id": "egg-plush-capsule-kaito-ice-cream",
+            "name": "KAITO Ice Cream",
+            "icon": "🍦",
+            "boost": 0.6,
+            "chance": 28
+          },
+          {
+            "id": "egg-plush-capsule-meiko-sake",
+            "name": "MEIKO Sake",
+            "icon": "🍶",
+            "boost": 1.2,
+            "chance": 14
+          },
+          {
+            "id": "egg-plush-capsule-gumi-carrot",
+            "name": "GUMI Carrot",
+            "icon": "🥕",
+            "boost": 2.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-plush-capsule-plush-miku",
+            "name": "Plush Miku",
+            "icon": "🧸",
+            "boost": 12,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-nendoroid-box",
+        "name": "Nendoroid Box",
+        "icon": "📦",
+        "color": "#ffd93b",
+        "cost": 36000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-nendoroid-box-nendo-rin",
+            "name": "Nendo Rin",
+            "icon": "🍊",
+            "boost": 1.5,
+            "chance": 48
+          },
+          {
+            "id": "egg-nendoroid-box-nendo-len",
+            "name": "Nendo Len",
+            "icon": "🍌",
+            "boost": 3,
+            "chance": 30
+          },
+          {
+            "id": "egg-nendoroid-box-nendo-luka",
+            "name": "Nendo Luka",
+            "icon": "🌸",
+            "boost": 6,
+            "chance": 14
+          },
+          {
+            "id": "egg-nendoroid-box-nendo-kaito",
+            "name": "Nendo KAITO",
+            "icon": "🍦",
+            "boost": 12,
+            "chance": 6
+          },
+          {
+            "id": "egg-nendoroid-box-nendo-miku",
+            "name": "Nendo Miku",
+            "icon": "💙",
+            "boost": 60,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-figure-box",
+        "name": "Figure Box",
+        "icon": "🎎",
+        "color": "#c25cff",
+        "cost": 540000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-figure-box-racing-miku",
+            "name": "Racing Miku",
+            "icon": "🏎️",
+            "boost": 5,
+            "chance": 45
+          },
+          {
+            "id": "egg-figure-box-sakura-miku",
+            "name": "Sakura Miku",
+            "icon": "🌸",
+            "boost": 10,
+            "chance": 28
+          },
+          {
+            "id": "egg-figure-box-snow-miku",
+            "name": "Snow Miku",
+            "icon": "❄️",
+            "boost": 25,
+            "chance": 15
+          },
+          {
+            "id": "egg-figure-box-append-miku",
+            "name": "Append Miku",
+            "icon": "🎀",
+            "boost": 60,
+            "chance": 8
+          },
+          {
+            "id": "egg-figure-box-magical-mirai-miku",
+            "name": "Magical Mirai Miku",
+            "icon": "🎪",
+            "boost": 150,
+            "chance": 3
+          },
+          {
+            "id": "egg-figure-box-project-diva-miku",
+            "name": "Project DIVA Miku",
+            "icon": "🎮",
+            "boost": 500,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-engine-cartridge",
+        "name": "Engine Cartridge",
+        "icon": "💿",
+        "color": "#4fb6ff",
+        "cost": 11000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-engine-cartridge-v1-engine",
+            "name": "V1 Engine",
+            "icon": "1️⃣",
+            "boost": 20,
+            "chance": 45
+          },
+          {
+            "id": "egg-engine-cartridge-v2-engine",
+            "name": "V2 Engine",
+            "icon": "2️⃣",
+            "boost": 50,
+            "chance": 28
+          },
+          {
+            "id": "egg-engine-cartridge-v3-engine",
+            "name": "V3 Engine",
+            "icon": "3️⃣",
+            "boost": 120,
+            "chance": 15
+          },
+          {
+            "id": "egg-engine-cartridge-v4-engine",
+            "name": "V4 Engine",
+            "icon": "4️⃣",
+            "boost": 300,
+            "chance": 8
+          },
+          {
+            "id": "egg-engine-cartridge-v5-engine",
+            "name": "V5 Engine",
+            "icon": "5️⃣",
+            "boost": 1200,
+            "chance": 3
+          },
+          {
+            "id": "egg-engine-cartridge-v6-engine",
+            "name": "V6 Engine",
+            "icon": "6️⃣",
+            "boost": 4000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-genre-capsule",
+        "name": "Genre Capsule",
+        "icon": "🎼",
+        "color": "#ff9a3b",
+        "cost": 220000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-genre-capsule-j-pop",
+            "name": "J-Pop",
+            "icon": "🎀",
+            "boost": 100,
+            "chance": 45
+          },
+          {
+            "id": "egg-genre-capsule-denpa",
+            "name": "Denpa",
+            "icon": "📡",
+            "boost": 250,
+            "chance": 28
+          },
+          {
+            "id": "egg-genre-capsule-rock",
+            "name": "Rock",
+            "icon": "🎸",
+            "boost": 600,
+            "chance": 15
+          },
+          {
+            "id": "egg-genre-capsule-edm",
+            "name": "EDM",
+            "icon": "💿",
+            "boost": 1500,
+            "chance": 8
+          },
+          {
+            "id": "egg-genre-capsule-orchestral",
+            "name": "Orchestral",
+            "icon": "🎻",
+            "boost": 6000,
+            "chance": 3
+          },
+          {
+            "id": "egg-genre-capsule-metal",
+            "name": "Metal",
+            "icon": "🤘",
+            "boost": 20000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-ticket-box",
+        "name": "Ticket Box",
+        "icon": "🎟️",
+        "color": "#ff6b6b",
+        "cost": 60,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-ticket-box-livehouse-ticket",
+            "name": "Livehouse Ticket",
+            "icon": "🎟️",
+            "boost": 200,
+            "chance": 45
+          },
+          {
+            "id": "egg-ticket-box-zepp-ticket",
+            "name": "Zepp Ticket",
+            "icon": "🎫",
+            "boost": 450,
+            "chance": 28
+          },
+          {
+            "id": "egg-ticket-box-festival-pass",
+            "name": "Festival Pass",
+            "icon": "🎪",
+            "boost": 1000,
+            "chance": 15
+          },
+          {
+            "id": "egg-ticket-box-magical-mirai-pass",
+            "name": "Magical Mirai Pass",
+            "icon": "🌟",
+            "boost": 2500,
+            "chance": 8
+          },
+          {
+            "id": "egg-ticket-box-miku-expo-vip",
+            "name": "Miku Expo VIP",
+            "icon": "💎",
+            "boost": 8000,
+            "chance": 3
+          },
+          {
+            "id": "egg-ticket-box-world-tour-vip",
+            "name": "World Tour VIP",
+            "icon": "🌍",
+            "boost": 25000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-huge-capsule",
+        "name": "Huge Capsule",
+        "icon": "🌌",
+        "color": "#7df9ff",
+        "cost": 2000,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-huge-capsule-huge-miku",
+            "name": "Huge Miku",
+            "icon": "💙",
+            "boost": 100000,
+            "chance": 50
+          },
+          {
+            "id": "egg-huge-capsule-huge-rin",
+            "name": "Huge Rin",
+            "icon": "🍊",
+            "boost": 160000,
+            "chance": 30
+          },
+          {
+            "id": "egg-huge-capsule-huge-len",
+            "name": "Huge Len",
+            "icon": "🍌",
+            "boost": 300000,
+            "chance": 12
+          },
+          {
+            "id": "egg-huge-capsule-huge-luka",
+            "name": "Huge Luka",
+            "icon": "🌸",
+            "boost": 900000,
+            "chance": 6
+          },
+          {
+            "id": "egg-huge-capsule-huge-kaito",
+            "name": "Huge KAITO",
+            "icon": "🍦",
+            "boost": 2500000,
+            "chance": 1.5
+          },
+          {
+            "id": "egg-huge-capsule-titanic-miku",
+            "name": "Titanic Miku",
+            "icon": "🌌",
+            "boost": 12000000,
+            "chance": 0.5
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 60,
+          "steep": 0.08,
+          "hard": 120,
+          "cap": 100,
+          "discount": 10
+        }
+      }
+    ],
+    "inv": [],
+    "maxPets": 6
+  }
+}

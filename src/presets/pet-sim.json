@@ -1,0 +1,1952 @@
+{
+  "type": "statsim-save",
+  "version": 1,
+  "savedAt": "2026-10-30T00:00:00.000Z",
+  "preset": {
+    "title": "Pet Sim",
+    "emoji": "🐾",
+    "blurb": "The original: swing tools, hatch pets and chase Huge pets across 13 eggs.",
+    "order": 1
+  },
+  "sim": {
+    "id": "sim-petsim",
+    "name": "Pet Sim",
+    "titles": {
+      "shop": "Tool Shop",
+      "power": "Powerups",
+      "mult": "Upgrades",
+      "weather": "Event Weather",
+      "pets": "Pets & Eggs"
+    },
+    "cur": 500,
+    "gems": 50,
+    "interval": 1,
+    "curName": "Coins",
+    "curIcon": "🪙",
+    "gemName": "Diamonds",
+    "gemIcon": "💎",
+    "shop": [
+      {
+        "id": "shop-wooden-stick",
+        "name": "Wooden Stick",
+        "icon": "🪵",
+        "val": 5,
+        "cost": 30,
+        "owned": 0
+      },
+      {
+        "id": "shop-stone-pickaxe",
+        "name": "Stone Pickaxe",
+        "icon": "⛏️",
+        "val": 20,
+        "cost": 240,
+        "owned": 0
+      },
+      {
+        "id": "shop-copper-hammer",
+        "name": "Copper Hammer",
+        "icon": "🔨",
+        "val": 75,
+        "cost": 1800,
+        "owned": 0
+      },
+      {
+        "id": "shop-iron-axe",
+        "name": "Iron Axe",
+        "icon": "🪓",
+        "val": 300,
+        "cost": 15000,
+        "owned": 0
+      },
+      {
+        "id": "shop-silver-sword",
+        "name": "Silver Sword",
+        "icon": "🗡️",
+        "val": 1100,
+        "cost": 120000,
+        "owned": 0
+      },
+      {
+        "id": "shop-gold-staff",
+        "name": "Gold Staff",
+        "icon": "🪄",
+        "val": 4000,
+        "cost": 900000,
+        "owned": 0
+      },
+      {
+        "id": "shop-diamond-drill",
+        "name": "Diamond Drill",
+        "icon": "🔩",
+        "val": 15000,
+        "cost": 7200000,
+        "owned": 0
+      },
+      {
+        "id": "shop-emerald-cannon",
+        "name": "Emerald Cannon",
+        "icon": "🎯",
+        "val": 55000,
+        "cost": 60000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-ruby-blaster",
+        "name": "Ruby Blaster",
+        "icon": "🧨",
+        "val": 200000,
+        "cost": 480000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-sapphire-bow",
+        "name": "Sapphire Bow",
+        "icon": "🏹",
+        "val": 750000,
+        "cost": 3900000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-obsidian-scythe",
+        "name": "Obsidian Scythe",
+        "icon": "⚔️",
+        "val": 2750000,
+        "cost": 33000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-lava-hammer",
+        "name": "Lava Hammer",
+        "icon": "🌋",
+        "val": 10000000.0,
+        "cost": 270000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-frost-trident",
+        "name": "Frost Trident",
+        "icon": "🔱",
+        "val": 37500000.0,
+        "cost": 2250000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-thunder-rod",
+        "name": "Thunder Rod",
+        "icon": "⚡",
+        "val": 140000000.0,
+        "cost": 18000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-void-cleaver",
+        "name": "Void Cleaver",
+        "icon": "🌀",
+        "val": 500000000.0,
+        "cost": 150000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-cosmic-wand",
+        "name": "Cosmic Wand",
+        "icon": "🌌",
+        "val": 2000000000.0,
+        "cost": 1200000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-celestial-blade",
+        "name": "Celestial Blade",
+        "icon": "✨",
+        "val": 7500000000.0,
+        "cost": 10500000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-omega-gauntlet",
+        "name": "Omega Gauntlet",
+        "icon": "🥊",
+        "val": 30000000000.0,
+        "cost": 90000000000000000,
+        "owned": 0
+      }
+    ],
+    "equipped": null,
+    "powers": [
+      {
+        "id": "pow-lucky-clover",
+        "name": "Lucky Clover",
+        "icon": "🍀",
+        "mult": 1.5,
+        "cost": 5000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-coin-magnet",
+        "name": "Coin Magnet",
+        "icon": "🧲",
+        "mult": 2,
+        "cost": 10,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-speed-boots",
+        "name": "Speed Boots",
+        "icon": "👟",
+        "mult": 2,
+        "cost": 50000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-triple-coins",
+        "name": "Triple Coins",
+        "icon": "💰",
+        "mult": 3,
+        "cost": 25,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-golden-ticket",
+        "name": "Golden Ticket",
+        "icon": "🎫",
+        "mult": 2,
+        "cost": 2000000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-mega-magnet",
+        "name": "Mega Magnet",
+        "icon": "🧿",
+        "mult": 4,
+        "cost": 60,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-diamond-aura",
+        "name": "Diamond Aura",
+        "icon": "💎",
+        "mult": 5,
+        "cost": 100,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-rainbow-charm",
+        "name": "Rainbow Charm",
+        "icon": "🌈",
+        "mult": 6,
+        "cost": 180,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-cosmic-boost",
+        "name": "Cosmic Boost",
+        "icon": "🌠",
+        "mult": 8,
+        "cost": 350,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-galaxy-core",
+        "name": "Galaxy Core",
+        "icon": "🪐",
+        "mult": 10,
+        "cost": 600,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-hyper-rocket",
+        "name": "Hyper Rocket",
+        "icon": "🚀",
+        "mult": 12,
+        "cost": 1000,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-dragon-heart",
+        "name": "Dragon Heart",
+        "icon": "🐉",
+        "mult": 15,
+        "cost": 1800,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-infinity-gem",
+        "name": "Infinity Gem",
+        "icon": "♾️",
+        "mult": 25,
+        "cost": 3000,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-omega-crown",
+        "name": "Omega Crown",
+        "icon": "👑",
+        "mult": 50,
+        "cost": 10000,
+        "pay": "gems",
+        "bought": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "grp-backpacks",
+        "name": "🎒 Backpacks",
+        "color": "#ffd93b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-backpacks-1",
+            "name": "Small Bag",
+            "cost": 500,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-backpacks-2",
+            "name": "Medium Bag",
+            "cost": 2000,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-backpacks-3",
+            "name": "Large Bag",
+            "cost": 10000,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-backpacks-4",
+            "name": "Huge Bag",
+            "cost": 50000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-backpacks-5",
+            "name": "Giant Bag",
+            "cost": 250000,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-backpacks-6",
+            "name": "Titan Bag",
+            "cost": 1500000,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-backpacks-7",
+            "name": "Mythic Bag",
+            "cost": 10000000,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-backpacks-8",
+            "name": "Cosmic Bag",
+            "cost": 80000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-enchants",
+        "name": "✨ Enchants",
+        "color": "#c25cff",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-enchants-1",
+            "name": "Fortune I",
+            "cost": 5,
+            "val": 0.25,
+            "bought": false
+          },
+          {
+            "id": "grp-enchants-2",
+            "name": "Fortune II",
+            "cost": 15,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-enchants-3",
+            "name": "Fortune III",
+            "cost": 40,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-enchants-4",
+            "name": "Fortune IV",
+            "cost": 100,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-enchants-5",
+            "name": "Fortune V",
+            "cost": 250,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-enchants-6",
+            "name": "Coins Rush",
+            "cost": 600,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-enchants-7",
+            "name": "Diamond Rush",
+            "cost": 1500,
+            "val": 16,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-fruits",
+        "name": "🍎 Fruits",
+        "color": "#ff6b6b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-fruits-1",
+            "name": "Apple",
+            "cost": 200,
+            "val": 0.2,
+            "bought": false
+          },
+          {
+            "id": "grp-fruits-2",
+            "name": "Banana",
+            "cost": 1000,
+            "val": 0.4,
+            "bought": false
+          },
+          {
+            "id": "grp-fruits-3",
+            "name": "Cherry",
+            "cost": 6000,
+            "val": 0.8,
+            "bought": false
+          },
+          {
+            "id": "grp-fruits-4",
+            "name": "Grape",
+            "cost": 30000,
+            "val": 1.6,
+            "bought": false
+          },
+          {
+            "id": "grp-fruits-5",
+            "name": "Mango",
+            "cost": 150000,
+            "val": 3.2,
+            "bought": false
+          },
+          {
+            "id": "grp-fruits-6",
+            "name": "Dragonfruit",
+            "cost": 1000000,
+            "val": 6.4,
+            "bought": false
+          },
+          {
+            "id": "grp-fruits-7",
+            "name": "Golden Apple",
+            "cost": 8000000,
+            "val": 12.8,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-gamepasses",
+        "name": "🎟️ Gamepasses",
+        "color": "#7df9ff",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-gamepasses-1",
+            "name": "VIP",
+            "cost": 100,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-gamepasses-2",
+            "name": "Lucky",
+            "cost": 250,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-gamepasses-3",
+            "name": "Super Lucky",
+            "cost": 600,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-gamepasses-4",
+            "name": "Huge Hunter",
+            "cost": 1000,
+            "val": 6,
+            "bought": false
+          },
+          {
+            "id": "grp-gamepasses-5",
+            "name": "Mega Vault",
+            "cost": 2500,
+            "val": 10,
+            "bought": false
+          },
+          {
+            "id": "grp-gamepasses-6",
+            "name": "Ultimate",
+            "cost": 6000,
+            "val": 20,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-potions",
+        "name": "🧪 Potions",
+        "color": "#5dff6a",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-potions-1",
+            "name": "Weak Potion",
+            "cost": 1000,
+            "val": 0.3,
+            "bought": false
+          },
+          {
+            "id": "grp-potions-2",
+            "name": "Mild Potion",
+            "cost": 8000,
+            "val": 0.6,
+            "bought": false
+          },
+          {
+            "id": "grp-potions-3",
+            "name": "Strong Potion",
+            "cost": 70000,
+            "val": 1.2,
+            "bought": false
+          },
+          {
+            "id": "grp-potions-4",
+            "name": "Super Potion",
+            "cost": 600000,
+            "val": 2.4,
+            "bought": false
+          },
+          {
+            "id": "grp-potions-5",
+            "name": "Mega Potion",
+            "cost": 5000000,
+            "val": 4.8,
+            "bought": false
+          },
+          {
+            "id": "grp-potions-6",
+            "name": "Ultra Potion",
+            "cost": 45000000,
+            "val": 9.6,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-areas",
+        "name": "🗺️ Areas",
+        "color": "#ff9a3b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-areas-1",
+            "name": "Spawn",
+            "cost": 1000,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-areas-2",
+            "name": "Forest",
+            "cost": 25000,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-areas-3",
+            "name": "Desert",
+            "cost": 500000,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-areas-4",
+            "name": "Beach",
+            "cost": 10000000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-areas-5",
+            "name": "Mountain",
+            "cost": 200000000.0,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-areas-6",
+            "name": "Volcano",
+            "cost": 4000000000.0,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-areas-7",
+            "name": "Space",
+            "cost": 100000000000.0,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-areas-8",
+            "name": "Heaven",
+            "cost": 3000000000000.0,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-trophies",
+        "name": "🏆 Trophies",
+        "color": "#4fb6ff",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-trophies-1",
+            "name": "Bronze Trophy",
+            "cost": 30,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-trophies-2",
+            "name": "Silver Trophy",
+            "cost": 120,
+            "val": 1.5,
+            "bought": false
+          },
+          {
+            "id": "grp-trophies-3",
+            "name": "Gold Trophy",
+            "cost": 400,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-trophies-4",
+            "name": "Platinum Trophy",
+            "cost": 1200,
+            "val": 10,
+            "bought": false
+          },
+          {
+            "id": "grp-trophies-5",
+            "name": "Diamond Trophy",
+            "cost": 4000,
+            "val": 25,
+            "bought": false
+          }
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "id": "wx-clear-skies",
+        "name": "Clear Skies",
+        "icon": "🌤️",
+        "fx": "none",
+        "mult": 1.5,
+        "duration": 120
+      },
+      {
+        "id": "wx-sunny",
+        "name": "Sunny",
+        "icon": "☀️",
+        "fx": "sun",
+        "mult": 2,
+        "duration": 60
+      },
+      {
+        "id": "wx-rainy",
+        "name": "Rainy",
+        "icon": "🌧️",
+        "fx": "rain",
+        "mult": 3,
+        "duration": 45
+      },
+      {
+        "id": "wx-snowy",
+        "name": "Snowy",
+        "icon": "❄️",
+        "fx": "snow",
+        "mult": 4,
+        "duration": 40
+      },
+      {
+        "id": "wx-stormy",
+        "name": "Stormy",
+        "icon": "⛈️",
+        "fx": "storm",
+        "mult": 6,
+        "duration": 30
+      },
+      {
+        "id": "wx-rainbow",
+        "name": "Rainbow",
+        "icon": "🌈",
+        "fx": "none",
+        "mult": 5,
+        "duration": 25
+      },
+      {
+        "id": "wx-golden-hour",
+        "name": "Golden Hour",
+        "icon": "🌇",
+        "fx": "sun",
+        "mult": 7,
+        "duration": 30
+      },
+      {
+        "id": "wx-aurora",
+        "name": "Aurora",
+        "icon": "🌌",
+        "fx": "snow",
+        "mult": 8,
+        "duration": 20
+      },
+      {
+        "id": "wx-lucky-hour",
+        "name": "Lucky Hour",
+        "icon": "🍀",
+        "fx": "none",
+        "mult": 10,
+        "duration": 20
+      },
+      {
+        "id": "wx-meteor-shower",
+        "name": "Meteor Shower",
+        "icon": "☄️",
+        "fx": "storm",
+        "mult": 12,
+        "duration": 15
+      },
+      {
+        "id": "wx-blood-moon",
+        "name": "Blood Moon",
+        "icon": "🌙",
+        "fx": "storm",
+        "mult": 15,
+        "duration": 15
+      },
+      {
+        "id": "wx-server-event",
+        "name": "Server Event",
+        "icon": "🎉",
+        "fx": "none",
+        "mult": 20,
+        "duration": 10
+      },
+      {
+        "id": "wx-blizzard",
+        "name": "Blizzard",
+        "icon": "🌨️",
+        "fx": "snow",
+        "mult": 25,
+        "duration": 15
+      },
+      {
+        "id": "wx-admin-abuse",
+        "name": "Admin Abuse",
+        "icon": "👑",
+        "fx": "sun",
+        "mult": 100,
+        "duration": 5
+      }
+    ],
+    "activeWeather": null,
+    "weatherLeft": 0,
+    "runtime": 0,
+    "totalRuntime": 0,
+    "rb": {
+      "count": 0,
+      "baseCost": 1000000,
+      "scale": 2.5,
+      "bonus": 1,
+      "gems": 25,
+      "resetShop": true,
+      "resetMult": false
+    },
+    "quests": [
+      {
+        "id": "q-first-coins",
+        "name": "First Coins",
+        "metric": "earned",
+        "target": 100,
+        "reward": 50,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pocket-money",
+        "name": "Pocket Money",
+        "metric": "earned",
+        "target": 10000,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-getting-rich",
+        "name": "Getting Rich",
+        "metric": "earned",
+        "target": 1000000,
+        "reward": 25,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-millionaire",
+        "name": "Millionaire",
+        "metric": "earned",
+        "target": 100000000,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-billionaire",
+        "name": "Billionaire",
+        "metric": "earned",
+        "target": 10000000000.0,
+        "reward": 400,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-trillionaire",
+        "name": "Trillionaire",
+        "metric": "earned",
+        "target": 10000000000000.0,
+        "reward": 1500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-clicker",
+        "name": "Clicker",
+        "metric": "manual",
+        "target": 25,
+        "reward": 1,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-click-frenzy",
+        "name": "Click Frenzy",
+        "metric": "manual",
+        "target": 250,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-carpal-tunnel",
+        "name": "Carpal Tunnel",
+        "metric": "manual",
+        "target": 2500,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-idle-helper",
+        "name": "Idle Helper",
+        "metric": "auto",
+        "target": 100,
+        "reward": 200,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-auto-master",
+        "name": "Auto Master",
+        "metric": "auto",
+        "target": 5000,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-never-sleeps",
+        "name": "Never Sleeps",
+        "metric": "auto",
+        "target": 100000,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-shopper",
+        "name": "Shopper",
+        "metric": "shopBuys",
+        "target": 3,
+        "reward": 100,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-big-spender",
+        "name": "Big Spender",
+        "metric": "shopBuys",
+        "target": 9,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-shopaholic",
+        "name": "Shopaholic",
+        "metric": "shopBuys",
+        "target": 18,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-serial-shopper",
+        "name": "Serial Shopper",
+        "metric": "shopBuys",
+        "target": 54,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-boosted",
+        "name": "Boosted",
+        "metric": "multBuys",
+        "target": 3,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-multiplier-fan",
+        "name": "Multiplier Fan",
+        "metric": "multBuys",
+        "target": 15,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-multiplier-maniac",
+        "name": "Multiplier Maniac",
+        "metric": "multBuys",
+        "target": 40,
+        "reward": 120,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-power-up",
+        "name": "Power Up!",
+        "metric": "powerBuys",
+        "target": 1,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-power-hungry",
+        "name": "Power Hungry",
+        "metric": "powerBuys",
+        "target": 6,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-fully-charged",
+        "name": "Fully Charged",
+        "metric": "powerBuys",
+        "target": 14,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-hatchling",
+        "name": "Hatchling",
+        "metric": "hatches",
+        "target": 3,
+        "reward": 2,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-egg-hunter",
+        "name": "Egg Hunter",
+        "metric": "hatches",
+        "target": 25,
+        "reward": 15,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pet-collector",
+        "name": "Pet Collector",
+        "metric": "hatches",
+        "target": 100,
+        "reward": 60,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-egg-cellent",
+        "name": "Egg-Cellent",
+        "metric": "hatches",
+        "target": 500,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-hatch-legend",
+        "name": "Hatch Legend",
+        "metric": "hatches",
+        "target": 2000,
+        "reward": 1000,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-reborn",
+        "name": "Reborn",
+        "metric": "rebirth",
+        "target": 1,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-rebirth-pro",
+        "name": "Rebirth Pro",
+        "metric": "rebirth",
+        "target": 5,
+        "reward": 75,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-rebirth-god",
+        "name": "Rebirth God",
+        "metric": "rebirth",
+        "target": 20,
+        "reward": 500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-marathon-2-min",
+        "name": "Marathon (2 min)",
+        "metric": "runtime",
+        "target": 120,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-long-haul-10-min",
+        "name": "Long Haul (10 min)",
+        "metric": "runtime",
+        "target": 600,
+        "reward": 30,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-daily-grind-1-hr",
+        "name": "Daily Grind (1 hr)",
+        "metric": "runtime",
+        "target": 3600,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      }
+    ],
+    "petGroups": [
+      {
+        "id": "egg-cat-egg",
+        "name": "Cat Egg",
+        "icon": "🥚",
+        "color": "#ffd93b",
+        "cost": 100,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-cat-egg-cat",
+            "name": "Cat",
+            "icon": "🐱",
+            "boost": 0.1,
+            "chance": 55
+          },
+          {
+            "id": "egg-cat-egg-dog",
+            "name": "Dog",
+            "icon": "🐶",
+            "boost": 0.15,
+            "chance": 25
+          },
+          {
+            "id": "egg-cat-egg-bunny",
+            "name": "Bunny",
+            "icon": "🐰",
+            "boost": 0.25,
+            "chance": 12
+          },
+          {
+            "id": "egg-cat-egg-hamster",
+            "name": "Hamster",
+            "icon": "🐹",
+            "boost": 0.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-cat-egg-golden-cat",
+            "name": "Golden Cat",
+            "icon": "🐈",
+            "boost": 1.5,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 20,
+          "steep": 0.2,
+          "hard": 40,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-forest-egg",
+        "name": "Forest Egg",
+        "icon": "🌲",
+        "color": "#3fbf5a",
+        "cost": 2500,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-forest-egg-squirrel",
+            "name": "Squirrel",
+            "icon": "🐿️",
+            "boost": 0.3,
+            "chance": 50
+          },
+          {
+            "id": "egg-forest-egg-fox",
+            "name": "Fox",
+            "icon": "🦊",
+            "boost": 0.6,
+            "chance": 28
+          },
+          {
+            "id": "egg-forest-egg-deer",
+            "name": "Deer",
+            "icon": "🦌",
+            "boost": 1.2,
+            "chance": 14
+          },
+          {
+            "id": "egg-forest-egg-owl",
+            "name": "Owl",
+            "icon": "🦉",
+            "boost": 2.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-forest-egg-forest-fairy",
+            "name": "Forest Fairy",
+            "icon": "🧚",
+            "boost": 12,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-desert-egg",
+        "name": "Desert Egg",
+        "icon": "🏜️",
+        "color": "#ffb347",
+        "cost": 40000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-desert-egg-camel",
+            "name": "Camel",
+            "icon": "🐪",
+            "boost": 1.5,
+            "chance": 48
+          },
+          {
+            "id": "egg-desert-egg-scorpion",
+            "name": "Scorpion",
+            "icon": "🦂",
+            "boost": 3,
+            "chance": 30
+          },
+          {
+            "id": "egg-desert-egg-snake",
+            "name": "Snake",
+            "icon": "🐍",
+            "boost": 6,
+            "chance": 14
+          },
+          {
+            "id": "egg-desert-egg-vulture",
+            "name": "Vulture",
+            "icon": "🦅",
+            "boost": 12,
+            "chance": 6
+          },
+          {
+            "id": "egg-desert-egg-sphinx",
+            "name": "Sphinx",
+            "icon": "🦁",
+            "boost": 60,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-ocean-egg",
+        "name": "Ocean Egg",
+        "icon": "🌊",
+        "color": "#4fb6ff",
+        "cost": 600000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-ocean-egg-crab",
+            "name": "Crab",
+            "icon": "🦀",
+            "boost": 5,
+            "chance": 45
+          },
+          {
+            "id": "egg-ocean-egg-fish",
+            "name": "Fish",
+            "icon": "🐟",
+            "boost": 10,
+            "chance": 28
+          },
+          {
+            "id": "egg-ocean-egg-octopus",
+            "name": "Octopus",
+            "icon": "🐙",
+            "boost": 25,
+            "chance": 15
+          },
+          {
+            "id": "egg-ocean-egg-shark",
+            "name": "Shark",
+            "icon": "🦈",
+            "boost": 60,
+            "chance": 8
+          },
+          {
+            "id": "egg-ocean-egg-whale",
+            "name": "Whale",
+            "icon": "🐋",
+            "boost": 150,
+            "chance": 3
+          },
+          {
+            "id": "egg-ocean-egg-kraken",
+            "name": "Kraken",
+            "icon": "🦑",
+            "boost": 500,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-arctic-egg",
+        "name": "Arctic Egg",
+        "icon": "🧊",
+        "color": "#bfeaff",
+        "cost": 12000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-arctic-egg-penguin",
+            "name": "Penguin",
+            "icon": "🐧",
+            "boost": 20,
+            "chance": 45
+          },
+          {
+            "id": "egg-arctic-egg-polar-bear",
+            "name": "Polar Bear",
+            "icon": "🐻",
+            "boost": 50,
+            "chance": 28
+          },
+          {
+            "id": "egg-arctic-egg-snowman",
+            "name": "Snowman",
+            "icon": "⛄",
+            "boost": 120,
+            "chance": 15
+          },
+          {
+            "id": "egg-arctic-egg-mammoth",
+            "name": "Mammoth",
+            "icon": "🦣",
+            "boost": 300,
+            "chance": 8
+          },
+          {
+            "id": "egg-arctic-egg-ice-dragon",
+            "name": "Ice Dragon",
+            "icon": "🐲",
+            "boost": 1200,
+            "chance": 3
+          },
+          {
+            "id": "egg-arctic-egg-aurora-peacock",
+            "name": "Aurora Peacock",
+            "icon": "🦚",
+            "boost": 4000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-volcano-egg",
+        "name": "Volcano Egg",
+        "icon": "🌋",
+        "color": "#ff5a36",
+        "cost": 250000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-volcano-egg-fire-sprite",
+            "name": "Fire Sprite",
+            "icon": "🔥",
+            "boost": 100,
+            "chance": 45
+          },
+          {
+            "id": "egg-volcano-egg-lava-lizard",
+            "name": "Lava Lizard",
+            "icon": "🦎",
+            "boost": 250,
+            "chance": 28
+          },
+          {
+            "id": "egg-volcano-egg-magma-boar",
+            "name": "Magma Boar",
+            "icon": "🐗",
+            "boost": 600,
+            "chance": 15
+          },
+          {
+            "id": "egg-volcano-egg-ember-wolf",
+            "name": "Ember Wolf",
+            "icon": "🐺",
+            "boost": 1500,
+            "chance": 8
+          },
+          {
+            "id": "egg-volcano-egg-inferno-dragon",
+            "name": "Inferno Dragon",
+            "icon": "🐉",
+            "boost": 6000,
+            "chance": 3
+          },
+          {
+            "id": "egg-volcano-egg-phoenix",
+            "name": "Phoenix",
+            "icon": "🦤",
+            "boost": 20000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-candy-egg",
+        "name": "Candy Egg",
+        "icon": "🍭",
+        "color": "#ff8ad8",
+        "cost": 25,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-candy-egg-gummy-bear",
+            "name": "Gummy Bear",
+            "icon": "🧸",
+            "boost": 30,
+            "chance": 50
+          },
+          {
+            "id": "egg-candy-egg-cupcake",
+            "name": "Cupcake",
+            "icon": "🧁",
+            "boost": 70,
+            "chance": 28
+          },
+          {
+            "id": "egg-candy-egg-ice-cream",
+            "name": "Ice Cream",
+            "icon": "🍦",
+            "boost": 150,
+            "chance": 14
+          },
+          {
+            "id": "egg-candy-egg-donut",
+            "name": "Donut",
+            "icon": "🍩",
+            "boost": 400,
+            "chance": 6
+          },
+          {
+            "id": "egg-candy-egg-candy-dragon",
+            "name": "Candy Dragon",
+            "icon": "🐲",
+            "boost": 2000,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-space-egg",
+        "name": "Space Egg",
+        "icon": "🪐",
+        "color": "#7a5cff",
+        "cost": 60,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-space-egg-alien",
+            "name": "Alien",
+            "icon": "👽",
+            "boost": 200,
+            "chance": 45
+          },
+          {
+            "id": "egg-space-egg-ufo",
+            "name": "UFO",
+            "icon": "🛸",
+            "boost": 450,
+            "chance": 28
+          },
+          {
+            "id": "egg-space-egg-comet",
+            "name": "Comet",
+            "icon": "☄️",
+            "boost": 1000,
+            "chance": 15
+          },
+          {
+            "id": "egg-space-egg-robot",
+            "name": "Robot",
+            "icon": "🤖",
+            "boost": 2500,
+            "chance": 8
+          },
+          {
+            "id": "egg-space-egg-black-hole",
+            "name": "Black Hole",
+            "icon": "⚫",
+            "boost": 8000,
+            "chance": 3
+          },
+          {
+            "id": "egg-space-egg-galaxy-cat",
+            "name": "Galaxy Cat",
+            "icon": "🌌",
+            "boost": 25000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-cyber-egg",
+        "name": "Cyber Egg",
+        "icon": "💾",
+        "color": "#00e5ff",
+        "cost": 120,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-cyber-egg-pixel-pup",
+            "name": "Pixel Pup",
+            "icon": "🐕",
+            "boost": 500,
+            "chance": 45
+          },
+          {
+            "id": "egg-cyber-egg-glitch-cat",
+            "name": "Glitch Cat",
+            "icon": "😺",
+            "boost": 1200,
+            "chance": 28
+          },
+          {
+            "id": "egg-cyber-egg-neon-fox",
+            "name": "Neon Fox",
+            "icon": "🦊",
+            "boost": 3000,
+            "chance": 15
+          },
+          {
+            "id": "egg-cyber-egg-drone",
+            "name": "Drone",
+            "icon": "🚁",
+            "boost": 8000,
+            "chance": 8
+          },
+          {
+            "id": "egg-cyber-egg-cyber-wolf",
+            "name": "Cyber Wolf",
+            "icon": "🐺",
+            "boost": 25000,
+            "chance": 3
+          },
+          {
+            "id": "egg-cyber-egg-mainframe",
+            "name": "Mainframe",
+            "icon": "🖥️",
+            "boost": 80000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-heaven-egg",
+        "name": "Heaven Egg",
+        "icon": "😇",
+        "color": "#fff3a8",
+        "cost": 250,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-heaven-egg-cherub",
+            "name": "Cherub",
+            "icon": "👼",
+            "boost": 2500,
+            "chance": 45
+          },
+          {
+            "id": "egg-heaven-egg-dove",
+            "name": "Dove",
+            "icon": "🕊️",
+            "boost": 6000,
+            "chance": 28
+          },
+          {
+            "id": "egg-heaven-egg-pegasus",
+            "name": "Pegasus",
+            "icon": "🦄",
+            "boost": 15000,
+            "chance": 15
+          },
+          {
+            "id": "egg-heaven-egg-seraph",
+            "name": "Seraph",
+            "icon": "🪽",
+            "boost": 40000,
+            "chance": 8
+          },
+          {
+            "id": "egg-heaven-egg-archangel",
+            "name": "Archangel",
+            "icon": "😇",
+            "boost": 130000,
+            "chance": 3
+          },
+          {
+            "id": "egg-heaven-egg-divine-lion",
+            "name": "Divine Lion",
+            "icon": "🦁",
+            "boost": 450000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 40,
+          "steep": 0.12,
+          "hard": 80,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-hell-egg",
+        "name": "Hell Egg",
+        "icon": "😈",
+        "color": "#c0152a",
+        "cost": 250,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-hell-egg-imp",
+            "name": "Imp",
+            "icon": "👹",
+            "boost": 2500,
+            "chance": 45
+          },
+          {
+            "id": "egg-hell-egg-hellhound",
+            "name": "Hellhound",
+            "icon": "🐕",
+            "boost": 6000,
+            "chance": 28
+          },
+          {
+            "id": "egg-hell-egg-demon",
+            "name": "Demon",
+            "icon": "😈",
+            "boost": 15000,
+            "chance": 15
+          },
+          {
+            "id": "egg-hell-egg-devil",
+            "name": "Devil",
+            "icon": "👿",
+            "boost": 40000,
+            "chance": 8
+          },
+          {
+            "id": "egg-hell-egg-reaper",
+            "name": "Reaper",
+            "icon": "💀",
+            "boost": 130000,
+            "chance": 3
+          },
+          {
+            "id": "egg-hell-egg-dark-lord",
+            "name": "Dark Lord",
+            "icon": "🧛",
+            "boost": 450000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 40,
+          "steep": 0.12,
+          "hard": 80,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-mythic-egg",
+        "name": "Mythic Egg",
+        "icon": "🔮",
+        "color": "#b45cff",
+        "cost": 600,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-mythic-egg-griffin",
+            "name": "Griffin",
+            "icon": "🦅",
+            "boost": 12000,
+            "chance": 45
+          },
+          {
+            "id": "egg-mythic-egg-hydra",
+            "name": "Hydra",
+            "icon": "🐍",
+            "boost": 30000,
+            "chance": 28
+          },
+          {
+            "id": "egg-mythic-egg-dragon",
+            "name": "Dragon",
+            "icon": "🐉",
+            "boost": 80000,
+            "chance": 15
+          },
+          {
+            "id": "egg-mythic-egg-unicorn",
+            "name": "Unicorn",
+            "icon": "🦄",
+            "boost": 220000,
+            "chance": 8
+          },
+          {
+            "id": "egg-mythic-egg-cosmic-dragon",
+            "name": "Cosmic Dragon",
+            "icon": "🐲",
+            "boost": 800000,
+            "chance": 3
+          },
+          {
+            "id": "egg-mythic-egg-world-serpent",
+            "name": "World Serpent",
+            "icon": "🪱",
+            "boost": 3000000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 40,
+          "steep": 0.12,
+          "hard": 80,
+          "cap": 100,
+          "discount": 10
+        }
+      },
+      {
+        "id": "egg-huge-egg",
+        "name": "Huge Egg",
+        "icon": "🥚",
+        "color": "#ff9a3b",
+        "cost": 2000,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-huge-egg-huge-cat",
+            "name": "Huge Cat",
+            "icon": "🐱",
+            "boost": 100000,
+            "chance": 50
+          },
+          {
+            "id": "egg-huge-egg-huge-dog",
+            "name": "Huge Dog",
+            "icon": "🐶",
+            "boost": 160000,
+            "chance": 30
+          },
+          {
+            "id": "egg-huge-egg-huge-fox",
+            "name": "Huge Fox",
+            "icon": "🦊",
+            "boost": 300000,
+            "chance": 12
+          },
+          {
+            "id": "egg-huge-egg-huge-dragon",
+            "name": "Huge Dragon",
+            "icon": "🐉",
+            "boost": 900000,
+            "chance": 6
+          },
+          {
+            "id": "egg-huge-egg-huge-unicorn",
+            "name": "Huge Unicorn",
+            "icon": "🦄",
+            "boost": 2500000,
+            "chance": 1.5
+          },
+          {
+            "id": "egg-huge-egg-titanic-kraken",
+            "name": "Titanic Kraken",
+            "icon": "🦑",
+            "boost": 12000000,
+            "chance": 0.5
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 60,
+          "steep": 0.08,
+          "hard": 120,
+          "cap": 100,
+          "discount": 10
+        }
+      }
+    ],
+    "inv": [],
+    "maxPets": 6
+  }
+}

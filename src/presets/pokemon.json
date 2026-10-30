@@ -1,0 +1,1511 @@
+{
+  "type": "statsim-save",
+  "version": 1,
+  "savedAt": "2026-10-30T00:00:00.000Z",
+  "preset": {
+    "title": "Pokémon",
+    "emoji": "🔴",
+    "blurb": "Earn badges, tour every region and hatch your way to a six-slot champion party.",
+    "order": 2
+  },
+  "sim": {
+    "id": "sim-pokemon",
+    "name": "Pokémon Sim",
+    "titles": {
+      "shop": "Poké Mart",
+      "power": "Poké Balls",
+      "mult": "Trainer Upgrades",
+      "weather": "Battle Weather",
+      "pets": "Pokémon"
+    },
+    "cur": 500,
+    "gems": 50,
+    "interval": 1,
+    "curName": "PokéDollars",
+    "curIcon": "💴",
+    "gemName": "Rare Candies",
+    "gemIcon": "🍬",
+    "shop": [
+      {
+        "id": "shop-running-shoes",
+        "name": "Running Shoes",
+        "icon": "👟",
+        "val": 5,
+        "cost": 30,
+        "owned": 0
+      },
+      {
+        "id": "shop-bicycle",
+        "name": "Bicycle",
+        "icon": "🚲",
+        "val": 24,
+        "cost": 310,
+        "owned": 0
+      },
+      {
+        "id": "shop-old-rod",
+        "name": "Old Rod",
+        "icon": "🎣",
+        "val": 110,
+        "cost": 3200,
+        "owned": 0
+      },
+      {
+        "id": "shop-good-rod",
+        "name": "Good Rod",
+        "icon": "🎣",
+        "val": 500,
+        "cost": 34000,
+        "owned": 0
+      },
+      {
+        "id": "shop-super-rod",
+        "name": "Super Rod",
+        "icon": "🎣",
+        "val": 2200,
+        "cost": 350000,
+        "owned": 0
+      },
+      {
+        "id": "shop-itemfinder",
+        "name": "Itemfinder",
+        "icon": "🔎",
+        "val": 9700,
+        "cost": 3600000,
+        "owned": 0
+      },
+      {
+        "id": "shop-amulet-coin",
+        "name": "Amulet Coin",
+        "icon": "🪙",
+        "val": 42000,
+        "cost": 39000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-lucky-egg",
+        "name": "Lucky Egg",
+        "icon": "🥚",
+        "val": 180000,
+        "cost": 420000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-soothe-bell",
+        "name": "Soothe Bell",
+        "icon": "🔔",
+        "val": 820000,
+        "cost": 4500000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-exp-share",
+        "name": "Exp. Share",
+        "icon": "📘",
+        "val": 3600000,
+        "cost": 50000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-oval-charm",
+        "name": "Oval Charm",
+        "icon": "🍀",
+        "val": 16000000,
+        "cost": 550000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-shiny-charm",
+        "name": "Shiny Charm",
+        "icon": "✨",
+        "val": 69000000,
+        "cost": 5900000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-mega-bracelet",
+        "name": "Mega Bracelet",
+        "icon": "💍",
+        "val": 300000000,
+        "cost": 64000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-z-ring",
+        "name": "Z-Ring",
+        "icon": "💎",
+        "val": 1400000000,
+        "cost": 690000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-dynamax-band",
+        "name": "Dynamax Band",
+        "icon": "🟣",
+        "val": 6300000000,
+        "cost": 7900000000000000.0,
+        "owned": 0
+      },
+      {
+        "id": "shop-terastal-orb",
+        "name": "Terastal Orb",
+        "icon": "🔮",
+        "val": 30000000000,
+        "cost": 9e+16,
+        "owned": 0
+      }
+    ],
+    "equipped": null,
+    "powers": [
+      {
+        "id": "pow-pok-ball",
+        "name": "Poké Ball",
+        "icon": "🔴",
+        "mult": 1.5,
+        "cost": 5000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-great-ball",
+        "name": "Great Ball",
+        "icon": "🔵",
+        "mult": 2,
+        "cost": 10,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-ultra-ball",
+        "name": "Ultra Ball",
+        "icon": "🟡",
+        "mult": 2,
+        "cost": 50000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-quick-ball",
+        "name": "Quick Ball",
+        "icon": "💨",
+        "mult": 2,
+        "cost": 2000000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-x-attack",
+        "name": "X Attack",
+        "icon": "🔥",
+        "mult": 4,
+        "cost": 60,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-protein",
+        "name": "Protein",
+        "icon": "💪",
+        "mult": 5,
+        "cost": 100,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-pp-max",
+        "name": "PP Max",
+        "icon": "🧬",
+        "mult": 6,
+        "cost": 180,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-shiny-aura",
+        "name": "Shiny Aura",
+        "icon": "🌟",
+        "mult": 8,
+        "cost": 350,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-legendary-aura",
+        "name": "Legendary Aura",
+        "icon": "🔱",
+        "mult": 10,
+        "cost": 600,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-mega-evolution",
+        "name": "Mega Evolution",
+        "icon": "🧿",
+        "mult": 15,
+        "cost": 1800,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-gigantamax",
+        "name": "Gigantamax",
+        "icon": "🌐",
+        "mult": 25,
+        "cost": 3000,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-master-ball",
+        "name": "Master Ball",
+        "icon": "🟣",
+        "mult": 50,
+        "cost": 10000,
+        "pay": "gems",
+        "bought": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "grp-gym-badges",
+        "name": "🏅 Gym Badges",
+        "color": "#ffd93b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-gym-badges-1",
+            "name": "Boulder",
+            "cost": 500,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-gym-badges-2",
+            "name": "Cascade",
+            "cost": 2000,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-gym-badges-3",
+            "name": "Thunder",
+            "cost": 10000,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-gym-badges-4",
+            "name": "Rainbow",
+            "cost": 50000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-gym-badges-5",
+            "name": "Soul",
+            "cost": 250000,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-gym-badges-6",
+            "name": "Marsh",
+            "cost": 1500000,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-gym-badges-7",
+            "name": "Volcano",
+            "cost": 10000000,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-gym-badges-8",
+            "name": "Earth",
+            "cost": 80000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-regions",
+        "name": "🌍 Regions",
+        "color": "#4fb6ff",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-regions-1",
+            "name": "Kanto",
+            "cost": 5,
+            "val": 0.25,
+            "bought": false
+          },
+          {
+            "id": "grp-regions-2",
+            "name": "Johto",
+            "cost": 11,
+            "val": 0.42,
+            "bought": false
+          },
+          {
+            "id": "grp-regions-3",
+            "name": "Hoenn",
+            "cost": 24,
+            "val": 0.71,
+            "bought": false
+          },
+          {
+            "id": "grp-regions-4",
+            "name": "Sinnoh",
+            "cost": 50,
+            "val": 1.2,
+            "bought": false
+          },
+          {
+            "id": "grp-regions-5",
+            "name": "Unova",
+            "cost": 100,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-regions-6",
+            "name": "Kalos",
+            "cost": 200,
+            "val": 3.4,
+            "bought": false
+          },
+          {
+            "id": "grp-regions-7",
+            "name": "Alola",
+            "cost": 390,
+            "val": 5.7,
+            "bought": false
+          },
+          {
+            "id": "grp-regions-8",
+            "name": "Galar",
+            "cost": 750,
+            "val": 9.5,
+            "bought": false
+          },
+          {
+            "id": "grp-regions-9",
+            "name": "Paldea",
+            "cost": 1500,
+            "val": 16,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-vitamins",
+        "name": "🧪 Vitamins",
+        "color": "#5dff6a",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-vitamins-1",
+            "name": "HP Up",
+            "cost": 1000,
+            "val": 0.3,
+            "bought": false
+          },
+          {
+            "id": "grp-vitamins-2",
+            "name": "Protein",
+            "cost": 8000,
+            "val": 0.6,
+            "bought": false
+          },
+          {
+            "id": "grp-vitamins-3",
+            "name": "Iron",
+            "cost": 70000,
+            "val": 1.2,
+            "bought": false
+          },
+          {
+            "id": "grp-vitamins-4",
+            "name": "Calcium",
+            "cost": 600000,
+            "val": 2.4,
+            "bought": false
+          },
+          {
+            "id": "grp-vitamins-5",
+            "name": "Zinc",
+            "cost": 5000000,
+            "val": 4.8,
+            "bought": false
+          },
+          {
+            "id": "grp-vitamins-6",
+            "name": "Carbos",
+            "cost": 45000000,
+            "val": 9.6,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-pok-dex",
+        "name": "📖 Pokédex",
+        "color": "#ff6b6b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-pok-dex-1",
+            "name": "Dex 151",
+            "cost": 1000,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-pok-dex-2",
+            "name": "Dex 251",
+            "cost": 25000,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-pok-dex-3",
+            "name": "Dex 386",
+            "cost": 500000,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-pok-dex-4",
+            "name": "Dex 493",
+            "cost": 10000000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-pok-dex-5",
+            "name": "Dex 649",
+            "cost": 200000000,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-pok-dex-6",
+            "name": "Dex 721",
+            "cost": 4000000000,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-pok-dex-7",
+            "name": "Dex 809",
+            "cost": 100000000000,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-pok-dex-8",
+            "name": "Dex 1025",
+            "cost": 3000000000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-elite-four",
+        "name": "🏆 Elite Four",
+        "color": "#c25cff",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-elite-four-1",
+            "name": "Lorelei",
+            "cost": 30,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-elite-four-2",
+            "name": "Bruno",
+            "cost": 120,
+            "val": 1.5,
+            "bought": false
+          },
+          {
+            "id": "grp-elite-four-3",
+            "name": "Agatha",
+            "cost": 400,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-elite-four-4",
+            "name": "Lance",
+            "cost": 1200,
+            "val": 10,
+            "bought": false
+          },
+          {
+            "id": "grp-elite-four-5",
+            "name": "Champion",
+            "cost": 4000,
+            "val": 25,
+            "bought": false
+          }
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "id": "wx-clear-skies",
+        "name": "Clear Skies",
+        "icon": "🌤️",
+        "fx": "none",
+        "mult": 1.5,
+        "duration": 120
+      },
+      {
+        "id": "wx-sunny-day",
+        "name": "Sunny Day",
+        "icon": "☀️",
+        "fx": "sun",
+        "mult": 2,
+        "duration": 60
+      },
+      {
+        "id": "wx-rain-dance",
+        "name": "Rain Dance",
+        "icon": "🌧️",
+        "fx": "rain",
+        "mult": 3,
+        "duration": 45
+      },
+      {
+        "id": "wx-electric-terrain",
+        "name": "Electric Terrain",
+        "icon": "⚡",
+        "fx": "storm",
+        "mult": 6,
+        "duration": 30
+      },
+      {
+        "id": "wx-rainbow",
+        "name": "Rainbow",
+        "icon": "🌈",
+        "fx": "none",
+        "mult": 5,
+        "duration": 25
+      },
+      {
+        "id": "wx-shiny-sparkle",
+        "name": "Shiny Sparkle",
+        "icon": "✨",
+        "fx": "sun",
+        "mult": 7,
+        "duration": 30
+      },
+      {
+        "id": "wx-snowscape",
+        "name": "Snowscape",
+        "icon": "❄️",
+        "fx": "snow",
+        "mult": 8,
+        "duration": 20
+      },
+      {
+        "id": "wx-mass-outbreak",
+        "name": "Mass Outbreak",
+        "icon": "🌫️",
+        "fx": "none",
+        "mult": 10,
+        "duration": 20
+      },
+      {
+        "id": "wx-max-raid-battle",
+        "name": "Max Raid Battle",
+        "icon": "🌩️",
+        "fx": "storm",
+        "mult": 12,
+        "duration": 15
+      },
+      {
+        "id": "wx-pok-fest",
+        "name": "Poké Fest",
+        "icon": "🎪",
+        "fx": "none",
+        "mult": 20,
+        "duration": 10
+      },
+      {
+        "id": "wx-blizzard",
+        "name": "Blizzard",
+        "icon": "🌨️",
+        "fx": "snow",
+        "mult": 25,
+        "duration": 15
+      },
+      {
+        "id": "wx-mythical-sighting",
+        "name": "Mythical Sighting",
+        "icon": "🌟",
+        "fx": "sun",
+        "mult": 100,
+        "duration": 5
+      }
+    ],
+    "activeWeather": null,
+    "weatherLeft": 0,
+    "runtime": 0,
+    "totalRuntime": 0,
+    "rb": {
+      "count": 0,
+      "baseCost": 1500000,
+      "scale": 2.4,
+      "bonus": 1,
+      "gems": 25,
+      "resetShop": true,
+      "resetMult": false
+    },
+    "quests": [
+      {
+        "id": "q-first-paycheck",
+        "name": "First Paycheck",
+        "metric": "earned",
+        "target": 100,
+        "reward": 50,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pocket-change",
+        "name": "Pocket Change",
+        "metric": "earned",
+        "target": 10000,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-rich-trainer",
+        "name": "Rich Trainer",
+        "metric": "earned",
+        "target": 1000000,
+        "reward": 25,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pok-mon-millionaire",
+        "name": "Pokémon Millionaire",
+        "metric": "earned",
+        "target": 100000000,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-silph-co-tycoon",
+        "name": "Silph Co. Tycoon",
+        "metric": "earned",
+        "target": 10000000000.0,
+        "reward": 400,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-devon-corp-mogul",
+        "name": "Devon Corp. Mogul",
+        "metric": "earned",
+        "target": 10000000000000.0,
+        "reward": 1500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-quick-tap",
+        "name": "Quick Tap",
+        "metric": "manual",
+        "target": 25,
+        "reward": 1,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-button-masher",
+        "name": "Button Masher",
+        "metric": "manual",
+        "target": 250,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-carpal-tunnel-trainer",
+        "name": "Carpal Tunnel Trainer",
+        "metric": "manual",
+        "target": 2500,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-daycare-helper",
+        "name": "Daycare Helper",
+        "metric": "auto",
+        "target": 100,
+        "reward": 200,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-auto-battler",
+        "name": "Auto Battler",
+        "metric": "auto",
+        "target": 5000,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-tireless-trainer",
+        "name": "Tireless Trainer",
+        "metric": "auto",
+        "target": 100000,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pok-mart-visitor",
+        "name": "Poké Mart Visitor",
+        "metric": "shopBuys",
+        "target": 3,
+        "reward": 100,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-big-spender",
+        "name": "Big Spender",
+        "metric": "shopBuys",
+        "target": 9,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-mart-regular",
+        "name": "Mart Regular",
+        "metric": "shopBuys",
+        "target": 18,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-key-item-hoarder",
+        "name": "Key Item Hoarder",
+        "metric": "shopBuys",
+        "target": 54,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-badge-hunter",
+        "name": "Badge Hunter",
+        "metric": "multBuys",
+        "target": 3,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-region-hopper",
+        "name": "Region Hopper",
+        "metric": "multBuys",
+        "target": 15,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-gotta-buy-em-all",
+        "name": "Gotta Buy 'Em All",
+        "metric": "multBuys",
+        "target": 40,
+        "reward": 120,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-first-ball",
+        "name": "First Ball",
+        "metric": "powerBuys",
+        "target": 1,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-item-hoarder",
+        "name": "Item Hoarder",
+        "metric": "powerBuys",
+        "target": 6,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-fully-evolved",
+        "name": "Fully Evolved",
+        "metric": "powerBuys",
+        "target": 14,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-first-egg",
+        "name": "First Egg",
+        "metric": "hatches",
+        "target": 3,
+        "reward": 2,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-breeder",
+        "name": "Breeder",
+        "metric": "hatches",
+        "target": 25,
+        "reward": 15,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-daycare-pro",
+        "name": "Daycare Pro",
+        "metric": "hatches",
+        "target": 100,
+        "reward": 60,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-egg-factory",
+        "name": "Egg Factory",
+        "metric": "hatches",
+        "target": 500,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-dex-complete",
+        "name": "Dex Complete",
+        "metric": "hatches",
+        "target": 2000,
+        "reward": 1000,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-hall-of-fame",
+        "name": "Hall of Fame",
+        "metric": "rebirth",
+        "target": 1,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-champion-streak",
+        "name": "Champion Streak",
+        "metric": "rebirth",
+        "target": 5,
+        "reward": 75,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-eternal-champion",
+        "name": "Eternal Champion",
+        "metric": "rebirth",
+        "target": 20,
+        "reward": 500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-short-route-2-min",
+        "name": "Short Route (2 min)",
+        "metric": "runtime",
+        "target": 120,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-safari-zone-10-min",
+        "name": "Safari Zone (10 min)",
+        "metric": "runtime",
+        "target": 600,
+        "reward": 30,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-elite-run-1-hr",
+        "name": "Elite Run (1 hr)",
+        "metric": "runtime",
+        "target": 3600,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      }
+    ],
+    "petGroups": [
+      {
+        "id": "egg-route-egg",
+        "name": "Route Egg",
+        "icon": "🥚",
+        "color": "#ffd93b",
+        "cost": 100,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-route-egg-pidgey",
+            "name": "Pidgey",
+            "icon": "🐦",
+            "boost": 0.1,
+            "chance": 55
+          },
+          {
+            "id": "egg-route-egg-rattata",
+            "name": "Rattata",
+            "icon": "🐀",
+            "boost": 0.15,
+            "chance": 25
+          },
+          {
+            "id": "egg-route-egg-pikachu",
+            "name": "Pikachu",
+            "icon": "⚡",
+            "boost": 0.25,
+            "chance": 12
+          },
+          {
+            "id": "egg-route-egg-eevee",
+            "name": "Eevee",
+            "icon": "🦊",
+            "boost": 0.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-route-egg-dratini",
+            "name": "Dratini",
+            "icon": "🐉",
+            "boost": 1.5,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 20,
+          "steep": 0.2,
+          "hard": 40,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-kanto-egg",
+        "name": "Kanto Egg",
+        "icon": "🔴",
+        "color": "#ff5a36",
+        "cost": 2500,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-kanto-egg-bulbasaur",
+            "name": "Bulbasaur",
+            "icon": "🌱",
+            "boost": 0.3,
+            "chance": 50
+          },
+          {
+            "id": "egg-kanto-egg-charmander",
+            "name": "Charmander",
+            "icon": "🔥",
+            "boost": 0.6,
+            "chance": 28
+          },
+          {
+            "id": "egg-kanto-egg-squirtle",
+            "name": "Squirtle",
+            "icon": "💧",
+            "boost": 1.2,
+            "chance": 14
+          },
+          {
+            "id": "egg-kanto-egg-snorlax",
+            "name": "Snorlax",
+            "icon": "😴",
+            "boost": 2.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-kanto-egg-zapdos",
+            "name": "Zapdos",
+            "icon": "⚡",
+            "boost": 12,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-johto-egg",
+        "name": "Johto Egg",
+        "icon": "🟡",
+        "color": "#ffb347",
+        "cost": 40000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-johto-egg-chikorita",
+            "name": "Chikorita",
+            "icon": "🍃",
+            "boost": 1.5,
+            "chance": 48
+          },
+          {
+            "id": "egg-johto-egg-cyndaquil",
+            "name": "Cyndaquil",
+            "icon": "🌋",
+            "boost": 3,
+            "chance": 30
+          },
+          {
+            "id": "egg-johto-egg-totodile",
+            "name": "Totodile",
+            "icon": "🐊",
+            "boost": 6,
+            "chance": 14
+          },
+          {
+            "id": "egg-johto-egg-togepi",
+            "name": "Togepi",
+            "icon": "🥚",
+            "boost": 12,
+            "chance": 6
+          },
+          {
+            "id": "egg-johto-egg-lugia",
+            "name": "Lugia",
+            "icon": "🌊",
+            "boost": 60,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-hoenn-egg",
+        "name": "Hoenn Egg",
+        "icon": "🟢",
+        "color": "#3fbf5a",
+        "cost": 600000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-hoenn-egg-treecko",
+            "name": "Treecko",
+            "icon": "🌿",
+            "boost": 5,
+            "chance": 45
+          },
+          {
+            "id": "egg-hoenn-egg-torchic",
+            "name": "Torchic",
+            "icon": "🔥",
+            "boost": 10,
+            "chance": 28
+          },
+          {
+            "id": "egg-hoenn-egg-mudkip",
+            "name": "Mudkip",
+            "icon": "💧",
+            "boost": 25,
+            "chance": 15
+          },
+          {
+            "id": "egg-hoenn-egg-gardevoir",
+            "name": "Gardevoir",
+            "icon": "💫",
+            "boost": 60,
+            "chance": 8
+          },
+          {
+            "id": "egg-hoenn-egg-salamence",
+            "name": "Salamence",
+            "icon": "🐲",
+            "boost": 150,
+            "chance": 3
+          },
+          {
+            "id": "egg-hoenn-egg-rayquaza",
+            "name": "Rayquaza",
+            "icon": "🐍",
+            "boost": 500,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-sinnoh-egg",
+        "name": "Sinnoh Egg",
+        "icon": "🔷",
+        "color": "#4fb6ff",
+        "cost": 12000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-sinnoh-egg-turtwig",
+            "name": "Turtwig",
+            "icon": "🐢",
+            "boost": 20,
+            "chance": 45
+          },
+          {
+            "id": "egg-sinnoh-egg-chimchar",
+            "name": "Chimchar",
+            "icon": "🐒",
+            "boost": 50,
+            "chance": 28
+          },
+          {
+            "id": "egg-sinnoh-egg-piplup",
+            "name": "Piplup",
+            "icon": "🐧",
+            "boost": 120,
+            "chance": 15
+          },
+          {
+            "id": "egg-sinnoh-egg-lucario",
+            "name": "Lucario",
+            "icon": "🥊",
+            "boost": 300,
+            "chance": 8
+          },
+          {
+            "id": "egg-sinnoh-egg-garchomp",
+            "name": "Garchomp",
+            "icon": "🦈",
+            "boost": 1200,
+            "chance": 3
+          },
+          {
+            "id": "egg-sinnoh-egg-dialga",
+            "name": "Dialga",
+            "icon": "⏳",
+            "boost": 4000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-unova-egg",
+        "name": "Unova Egg",
+        "icon": "⚪",
+        "color": "#bfeaff",
+        "cost": 250000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-unova-egg-snivy",
+            "name": "Snivy",
+            "icon": "🐍",
+            "boost": 100,
+            "chance": 45
+          },
+          {
+            "id": "egg-unova-egg-tepig",
+            "name": "Tepig",
+            "icon": "🐷",
+            "boost": 250,
+            "chance": 28
+          },
+          {
+            "id": "egg-unova-egg-oshawott",
+            "name": "Oshawott",
+            "icon": "🦦",
+            "boost": 600,
+            "chance": 15
+          },
+          {
+            "id": "egg-unova-egg-zoroark",
+            "name": "Zoroark",
+            "icon": "🦊",
+            "boost": 1500,
+            "chance": 8
+          },
+          {
+            "id": "egg-unova-egg-hydreigon",
+            "name": "Hydreigon",
+            "icon": "🐲",
+            "boost": 6000,
+            "chance": 3
+          },
+          {
+            "id": "egg-unova-egg-reshiram",
+            "name": "Reshiram",
+            "icon": "🔥",
+            "boost": 20000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-alola-egg",
+        "name": "Alola Egg",
+        "icon": "🌴",
+        "color": "#ff8ad8",
+        "cost": 60,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-alola-egg-rowlet",
+            "name": "Rowlet",
+            "icon": "🦉",
+            "boost": 200,
+            "chance": 45
+          },
+          {
+            "id": "egg-alola-egg-litten",
+            "name": "Litten",
+            "icon": "🐱",
+            "boost": 450,
+            "chance": 28
+          },
+          {
+            "id": "egg-alola-egg-popplio",
+            "name": "Popplio",
+            "icon": "🦭",
+            "boost": 1000,
+            "chance": 15
+          },
+          {
+            "id": "egg-alola-egg-mimikyu",
+            "name": "Mimikyu",
+            "icon": "👻",
+            "boost": 2500,
+            "chance": 8
+          },
+          {
+            "id": "egg-alola-egg-lunala",
+            "name": "Lunala",
+            "icon": "🌙",
+            "boost": 8000,
+            "chance": 3
+          },
+          {
+            "id": "egg-alola-egg-solgaleo",
+            "name": "Solgaleo",
+            "icon": "☀️",
+            "boost": 25000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-mythical-egg",
+        "name": "Mythical Egg",
+        "icon": "🌟",
+        "color": "#b45cff",
+        "cost": 2000,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-mythical-egg-mew",
+            "name": "Mew",
+            "icon": "🧬",
+            "boost": 100000,
+            "chance": 50
+          },
+          {
+            "id": "egg-mythical-egg-celebi",
+            "name": "Celebi",
+            "icon": "🍃",
+            "boost": 160000,
+            "chance": 30
+          },
+          {
+            "id": "egg-mythical-egg-jirachi",
+            "name": "Jirachi",
+            "icon": "⭐",
+            "boost": 300000,
+            "chance": 12
+          },
+          {
+            "id": "egg-mythical-egg-darkrai",
+            "name": "Darkrai",
+            "icon": "🌑",
+            "boost": 900000,
+            "chance": 6
+          },
+          {
+            "id": "egg-mythical-egg-mewtwo",
+            "name": "Mewtwo",
+            "icon": "🧠",
+            "boost": 2500000,
+            "chance": 1.5
+          },
+          {
+            "id": "egg-mythical-egg-arceus",
+            "name": "Arceus",
+            "icon": "⚪",
+            "boost": 12000000,
+            "chance": 0.5
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 60,
+          "steep": 0.08,
+          "hard": 120,
+          "cap": 100,
+          "discount": 10
+        }
+      }
+    ],
+    "inv": [],
+    "maxPets": 6
+  }
+}

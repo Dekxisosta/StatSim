@@ -1,0 +1,1490 @@
+{
+  "type": "statsim-save",
+  "version": 1,
+  "savedAt": "2026-10-30T00:00:00.000Z",
+  "preset": {
+    "title": "Arcaea",
+    "emoji": "🌌",
+    "blurb": "Clear charts, climb Potential and pull characters from Light and Conflict capsules.",
+    "order": 3
+  },
+  "sim": {
+    "id": "sim-arcaea",
+    "name": "Arcaea Sim",
+    "titles": {
+      "shop": "Gear Shop",
+      "power": "Clear Types",
+      "mult": "Progression",
+      "weather": "Interface Modes",
+      "pets": "Characters"
+    },
+    "cur": 500,
+    "gems": 50,
+    "interval": 1,
+    "curName": "Fragments",
+    "curIcon": "🔹",
+    "gemName": "Memories",
+    "gemIcon": "💠",
+    "shop": [
+      {
+        "id": "shop-cracked-phone",
+        "name": "Cracked Phone",
+        "icon": "📱",
+        "val": 5,
+        "cost": 36,
+        "owned": 0
+      },
+      {
+        "id": "shop-budget-tablet",
+        "name": "Budget Tablet",
+        "icon": "📲",
+        "val": 24,
+        "cost": 380,
+        "owned": 0
+      },
+      {
+        "id": "shop-screen-protector",
+        "name": "Screen Protector",
+        "icon": "🩹",
+        "val": 110,
+        "cost": 3800,
+        "owned": 0
+      },
+      {
+        "id": "shop-finger-sleeves",
+        "name": "Finger Sleeves",
+        "icon": "🧤",
+        "val": 500,
+        "cost": 41000,
+        "owned": 0
+      },
+      {
+        "id": "shop-wired-earbuds",
+        "name": "Wired Earbuds",
+        "icon": "🎧",
+        "val": 2200,
+        "cost": 420000,
+        "owned": 0
+      },
+      {
+        "id": "shop-power-bank",
+        "name": "Power Bank",
+        "icon": "🔋",
+        "val": 9700,
+        "cost": 4300000,
+        "owned": 0
+      },
+      {
+        "id": "shop-studio-headphones",
+        "name": "Studio Headphones",
+        "icon": "🎚️",
+        "val": 42000,
+        "cost": 47000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-gaming-tablet",
+        "name": "Gaming Tablet",
+        "icon": "🖥️",
+        "val": 180000,
+        "cost": 500000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-120hz-panel",
+        "name": "120Hz Panel",
+        "icon": "⚡",
+        "val": 820000,
+        "cost": 5400000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-hi-fi-dac",
+        "name": "Hi-Fi DAC",
+        "icon": "🔊",
+        "val": 3600000,
+        "cost": 60000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-arcade-cabinet",
+        "name": "Arcade Cabinet",
+        "icon": "🕹️",
+        "val": 16000000,
+        "cost": 660000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-latency-calibrator",
+        "name": "Latency Calibrator",
+        "icon": "🔬",
+        "val": 69000000,
+        "cost": 7100000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-cooling-dock",
+        "name": "Cooling Dock",
+        "icon": "🧊",
+        "val": 300000000,
+        "cost": 77000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-fiber-connection",
+        "name": "Fiber Connection",
+        "icon": "🌐",
+        "val": 1400000000,
+        "cost": 830000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-axiom-device",
+        "name": "Axiom Device",
+        "icon": "🌀",
+        "val": 6300000000,
+        "cost": 9400000000000000.0,
+        "owned": 0
+      },
+      {
+        "id": "shop-eternal-device",
+        "name": "Eternal Device",
+        "icon": "♾️",
+        "val": 30000000000,
+        "cost": 1.1e+17,
+        "owned": 0
+      }
+    ],
+    "equipped": null,
+    "powers": [
+      {
+        "id": "pow-easy-clear",
+        "name": "Easy Clear",
+        "icon": "🩵",
+        "mult": 1.5,
+        "cost": 5000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-normal-clear",
+        "name": "Normal Clear",
+        "icon": "💚",
+        "mult": 2,
+        "cost": 10,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-hard-clear",
+        "name": "Hard Clear",
+        "icon": "❤️",
+        "mult": 2,
+        "cost": 50000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-pure-streak",
+        "name": "Pure Streak",
+        "icon": "🎯",
+        "mult": 2,
+        "cost": 2000000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-ex-grade",
+        "name": "EX Grade",
+        "icon": "⭐",
+        "mult": 4,
+        "cost": 60,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-ex-grade-2",
+        "name": "EX+ Grade",
+        "icon": "🌟",
+        "mult": 5,
+        "cost": 100,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-full-recall",
+        "name": "Full Recall",
+        "icon": "🔥",
+        "mult": 6,
+        "cost": 180,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-pure-memory",
+        "name": "Pure Memory",
+        "icon": "✨",
+        "mult": 8,
+        "cost": 350,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-max-potential",
+        "name": "Max Potential",
+        "icon": "🌠",
+        "mult": 10,
+        "cost": 600,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-light-conflict",
+        "name": "Light & Conflict",
+        "icon": "☯️",
+        "mult": 15,
+        "cost": 1800,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-beyond-chart",
+        "name": "Beyond Chart",
+        "icon": "🌌",
+        "mult": 25,
+        "cost": 3000,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-eternal-core",
+        "name": "Eternal Core",
+        "icon": "♾️",
+        "mult": 50,
+        "cost": 10000,
+        "pay": "gems",
+        "bought": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "grp-packs",
+        "name": "📦 Packs",
+        "color": "#ffd93b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-packs-1",
+            "name": "Adverse Prelude",
+            "cost": 550,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-packs-2",
+            "name": "Luminous Sky",
+            "cost": 2200,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-packs-3",
+            "name": "Vicious Labyrinth",
+            "cost": 11000,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-packs-4",
+            "name": "Eternal Core",
+            "cost": 55000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-packs-5",
+            "name": "Binary Enfold",
+            "cost": 280000,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-packs-6",
+            "name": "Ambivalent Vision",
+            "cost": 1700000,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-packs-7",
+            "name": "Crimson Solace",
+            "cost": 11000000,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-packs-8",
+            "name": "Sunset Radiance",
+            "cost": 88000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-potential",
+        "name": "⭐ Potential",
+        "color": "#c25cff",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-potential-1",
+            "name": "Ptt 5.00",
+            "cost": 5,
+            "val": 0.25,
+            "bought": false
+          },
+          {
+            "id": "grp-potential-2",
+            "name": "Ptt 8.00",
+            "cost": 15,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-potential-3",
+            "name": "Ptt 10.00",
+            "cost": 40,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-potential-4",
+            "name": "Ptt 11.00",
+            "cost": 100,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-potential-5",
+            "name": "Ptt 12.00",
+            "cost": 250,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-potential-6",
+            "name": "Ptt 12.50",
+            "cost": 600,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-potential-7",
+            "name": "Ptt 13.00",
+            "cost": 1500,
+            "val": 16,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-grades",
+        "name": "🎯 Grades",
+        "color": "#5dff6a",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-grades-1",
+            "name": "Grade C",
+            "cost": 1100,
+            "val": 0.3,
+            "bought": false
+          },
+          {
+            "id": "grp-grades-2",
+            "name": "Grade B",
+            "cost": 6200,
+            "val": 0.53,
+            "bought": false
+          },
+          {
+            "id": "grp-grades-3",
+            "name": "Grade A",
+            "cost": 37000,
+            "val": 0.95,
+            "bought": false
+          },
+          {
+            "id": "grp-grades-4",
+            "name": "Grade AA",
+            "cost": 230000,
+            "val": 1.7,
+            "bought": false
+          },
+          {
+            "id": "grp-grades-5",
+            "name": "Grade EX",
+            "cost": 1300000,
+            "val": 3,
+            "bought": false
+          },
+          {
+            "id": "grp-grades-6",
+            "name": "Grade EX+",
+            "cost": 7900000,
+            "val": 5.4,
+            "bought": false
+          },
+          {
+            "id": "grp-grades-7",
+            "name": "Pure Memory",
+            "cost": 50000000,
+            "val": 9.6,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-world-maps",
+        "name": "🗺️ World Maps",
+        "color": "#ff9a3b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-world-maps-1",
+            "name": "Prelude",
+            "cost": 1100,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-world-maps-2",
+            "name": "Light Path",
+            "cost": 91000,
+            "val": 1.3,
+            "bought": false
+          },
+          {
+            "id": "grp-world-maps-3",
+            "name": "Conflict Path",
+            "cost": 6000000,
+            "val": 3.5,
+            "bought": false
+          },
+          {
+            "id": "grp-world-maps-4",
+            "name": "Memory Trail",
+            "cost": 400000000,
+            "val": 9.2,
+            "bought": false
+          },
+          {
+            "id": "grp-world-maps-5",
+            "name": "Eternal Road",
+            "cost": 30000000000,
+            "val": 24,
+            "bought": false
+          },
+          {
+            "id": "grp-world-maps-6",
+            "name": "Beyond Horizon",
+            "cost": 3300000000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-difficulties",
+        "name": "💎 Difficulties",
+        "color": "#7df9ff",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-difficulties-1",
+            "name": "Past",
+            "cost": 30,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-difficulties-2",
+            "name": "Present",
+            "cost": 120,
+            "val": 1.5,
+            "bought": false
+          },
+          {
+            "id": "grp-difficulties-3",
+            "name": "Future",
+            "cost": 400,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-difficulties-4",
+            "name": "Beyond",
+            "cost": 1200,
+            "val": 10,
+            "bought": false
+          },
+          {
+            "id": "grp-difficulties-5",
+            "name": "Eternal",
+            "cost": 4000,
+            "val": 25,
+            "bought": false
+          }
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "id": "wx-calm-interface",
+        "name": "Calm Interface",
+        "icon": "🎶",
+        "fx": "none",
+        "mult": 1.5,
+        "duration": 120
+      },
+      {
+        "id": "wx-light-side",
+        "name": "Light Side",
+        "icon": "☀️",
+        "fx": "sun",
+        "mult": 2,
+        "duration": 60
+      },
+      {
+        "id": "wx-memory-rain",
+        "name": "Memory Rain",
+        "icon": "🌧️",
+        "fx": "rain",
+        "mult": 3,
+        "duration": 45
+      },
+      {
+        "id": "wx-conflict-side",
+        "name": "Conflict Side",
+        "icon": "⛈️",
+        "fx": "storm",
+        "mult": 6,
+        "duration": 30
+      },
+      {
+        "id": "wx-prism-glow",
+        "name": "Prism Glow",
+        "icon": "🌈",
+        "fx": "none",
+        "mult": 5,
+        "duration": 25
+      },
+      {
+        "id": "wx-afterglow",
+        "name": "Afterglow",
+        "icon": "🌅",
+        "fx": "sun",
+        "mult": 7,
+        "duration": 30
+      },
+      {
+        "id": "wx-eternal-snow",
+        "name": "Eternal Snow",
+        "icon": "❄️",
+        "fx": "snow",
+        "mult": 8,
+        "duration": 20
+      },
+      {
+        "id": "wx-perfect-sync",
+        "name": "Perfect Sync",
+        "icon": "💫",
+        "fx": "none",
+        "mult": 10,
+        "duration": 20
+      },
+      {
+        "id": "wx-starfall",
+        "name": "Starfall",
+        "icon": "🌠",
+        "fx": "storm",
+        "mult": 12,
+        "duration": 15
+      },
+      {
+        "id": "wx-axiom-overload",
+        "name": "Axiom Overload",
+        "icon": "⚡",
+        "fx": "none",
+        "mult": 20,
+        "duration": 10
+      },
+      {
+        "id": "wx-whiteout",
+        "name": "Whiteout",
+        "icon": "🌨️",
+        "fx": "snow",
+        "mult": 25,
+        "duration": 15
+      },
+      {
+        "id": "wx-last-eternity",
+        "name": "Last Eternity",
+        "icon": "♾️",
+        "fx": "sun",
+        "mult": 100,
+        "duration": 5
+      }
+    ],
+    "activeWeather": null,
+    "weatherLeft": 0,
+    "runtime": 0,
+    "totalRuntime": 0,
+    "rb": {
+      "count": 0,
+      "baseCost": 2000000,
+      "scale": 2.6,
+      "bonus": 1,
+      "gems": 30,
+      "resetShop": true,
+      "resetMult": false
+    },
+    "quests": [
+      {
+        "id": "q-first-fragments",
+        "name": "First Fragments",
+        "metric": "earned",
+        "target": 100,
+        "reward": 50,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pocket-memories",
+        "name": "Pocket Memories",
+        "metric": "earned",
+        "target": 10000,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-chart-hoarder",
+        "name": "Chart Hoarder",
+        "metric": "earned",
+        "target": 1000000,
+        "reward": 25,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-fragment-millionaire",
+        "name": "Fragment Millionaire",
+        "metric": "earned",
+        "target": 100000000,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-axiom-billionaire",
+        "name": "Axiom Billionaire",
+        "metric": "earned",
+        "target": 10000000000.0,
+        "reward": 400,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-eternal-trillionaire",
+        "name": "Eternal Trillionaire",
+        "metric": "earned",
+        "target": 10000000000000.0,
+        "reward": 1500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-tap-tap",
+        "name": "Tap Tap",
+        "metric": "manual",
+        "target": 25,
+        "reward": 1,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-finger-workout",
+        "name": "Finger Workout",
+        "metric": "manual",
+        "target": 250,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-carpal-tunnel-ptt",
+        "name": "Carpal Tunnel Ptt",
+        "metric": "manual",
+        "target": 2500,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-auto-play",
+        "name": "Auto Play",
+        "metric": "auto",
+        "target": 100,
+        "reward": 200,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-idle-rhythm",
+        "name": "Idle Rhythm",
+        "metric": "auto",
+        "target": 5000,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-endless-chain",
+        "name": "Endless Chain",
+        "metric": "auto",
+        "target": 100000,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-gear-up",
+        "name": "Gear Up",
+        "metric": "shopBuys",
+        "target": 3,
+        "reward": 100,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-setup-tweaker",
+        "name": "Setup Tweaker",
+        "metric": "shopBuys",
+        "target": 9,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-hardware-addict",
+        "name": "Hardware Addict",
+        "metric": "shopBuys",
+        "target": 18,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-ultimate-rig",
+        "name": "Ultimate Rig",
+        "metric": "shopBuys",
+        "target": 54,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pack-collector",
+        "name": "Pack Collector",
+        "metric": "multBuys",
+        "target": 3,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-potential-climber",
+        "name": "Potential Climber",
+        "metric": "multBuys",
+        "target": 15,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-completionist",
+        "name": "Completionist",
+        "metric": "multBuys",
+        "target": 40,
+        "reward": 120,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-first-clear",
+        "name": "First Clear",
+        "metric": "powerBuys",
+        "target": 1,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-lamp-collector",
+        "name": "Lamp Collector",
+        "metric": "powerBuys",
+        "target": 6,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-full-recall-club",
+        "name": "Full Recall Club",
+        "metric": "powerBuys",
+        "target": 14,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-first-pull",
+        "name": "First Pull",
+        "metric": "hatches",
+        "target": 3,
+        "reward": 2,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-capsule-hunter",
+        "name": "Capsule Hunter",
+        "metric": "hatches",
+        "target": 25,
+        "reward": 15,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-character-collector",
+        "name": "Character Collector",
+        "metric": "hatches",
+        "target": 100,
+        "reward": 60,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-gacha-addict",
+        "name": "Gacha Addict",
+        "metric": "hatches",
+        "target": 500,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-eternal-summoner",
+        "name": "Eternal Summoner",
+        "metric": "hatches",
+        "target": 2000,
+        "reward": 1000,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-reawakened",
+        "name": "Reawakened",
+        "metric": "rebirth",
+        "target": 1,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-cycle-of-light",
+        "name": "Cycle of Light",
+        "metric": "rebirth",
+        "target": 5,
+        "reward": 75,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-eternal-recurrence",
+        "name": "Eternal Recurrence",
+        "metric": "rebirth",
+        "target": 20,
+        "reward": 500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-quick-session-2-min",
+        "name": "Quick Session (2 min)",
+        "metric": "runtime",
+        "target": 120,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-long-session-10-min",
+        "name": "Long Session (10 min)",
+        "metric": "runtime",
+        "target": 600,
+        "reward": 30,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-arcade-marathon-1-hr",
+        "name": "Arcade Marathon (1 hr)",
+        "metric": "runtime",
+        "target": 3600,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      }
+    ],
+    "petGroups": [
+      {
+        "id": "egg-light-capsule",
+        "name": "Light Capsule",
+        "icon": "⚪",
+        "color": "#fff3a8",
+        "cost": 120,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-light-capsule-ayu",
+            "name": "Ayu",
+            "icon": "🎀",
+            "boost": 0.1,
+            "chance": 55
+          },
+          {
+            "id": "egg-light-capsule-eto",
+            "name": "Eto",
+            "icon": "🌙",
+            "boost": 0.15,
+            "chance": 25
+          },
+          {
+            "id": "egg-light-capsule-luna",
+            "name": "Luna",
+            "icon": "🌸",
+            "boost": 0.25,
+            "chance": 12
+          },
+          {
+            "id": "egg-light-capsule-shirabe",
+            "name": "Shirabe",
+            "icon": "🎵",
+            "boost": 0.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-light-capsule-hikari",
+            "name": "Hikari",
+            "icon": "☀️",
+            "boost": 1.5,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 20,
+          "steep": 0.2,
+          "hard": 40,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-conflict-capsule",
+        "name": "Conflict Capsule",
+        "icon": "⚫",
+        "color": "#7a5cff",
+        "cost": 3000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-conflict-capsule-kou",
+            "name": "Kou",
+            "icon": "🧣",
+            "boost": 0.3,
+            "chance": 50
+          },
+          {
+            "id": "egg-conflict-capsule-maya",
+            "name": "Maya",
+            "icon": "🌿",
+            "boost": 0.6,
+            "chance": 28
+          },
+          {
+            "id": "egg-conflict-capsule-nai",
+            "name": "Nai",
+            "icon": "🎭",
+            "boost": 1.2,
+            "chance": 14
+          },
+          {
+            "id": "egg-conflict-capsule-lethe",
+            "name": "Lethe",
+            "icon": "🌊",
+            "boost": 2.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-conflict-capsule-tairitsu",
+            "name": "Tairitsu",
+            "icon": "🖤",
+            "boost": 12,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-memory-capsule",
+        "name": "Memory Capsule",
+        "icon": "💭",
+        "color": "#4fb6ff",
+        "cost": 48000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-memory-capsule-ilith",
+            "name": "Ilith",
+            "icon": "🍃",
+            "boost": 1.5,
+            "chance": 48
+          },
+          {
+            "id": "egg-memory-capsule-lagrange",
+            "name": "Lagrange",
+            "icon": "⚖️",
+            "boost": 3,
+            "chance": 30
+          },
+          {
+            "id": "egg-memory-capsule-fisica",
+            "name": "Fisica",
+            "icon": "🔬",
+            "boost": 6,
+            "chance": 14
+          },
+          {
+            "id": "egg-memory-capsule-eto-luna",
+            "name": "Eto & Luna",
+            "icon": "🎀",
+            "boost": 12,
+            "chance": 6
+          },
+          {
+            "id": "egg-memory-capsule-hikari-fisica",
+            "name": "Hikari & Fisica",
+            "icon": "✨",
+            "boost": 60,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-future-capsule",
+        "name": "Future Capsule",
+        "icon": "🔷",
+        "color": "#3fbf5a",
+        "cost": 720000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-future-capsule-altale",
+            "name": "Altale",
+            "icon": "🎵",
+            "boost": 5,
+            "chance": 45
+          },
+          {
+            "id": "egg-future-capsule-redraw",
+            "name": "Redraw",
+            "icon": "🎵",
+            "boost": 10,
+            "chance": 28
+          },
+          {
+            "id": "egg-future-capsule-aterlbus",
+            "name": "Aterlbus",
+            "icon": "🎵",
+            "boost": 25,
+            "chance": 15
+          },
+          {
+            "id": "egg-future-capsule-genesis",
+            "name": "Genesis",
+            "icon": "🎵",
+            "boost": 60,
+            "chance": 8
+          },
+          {
+            "id": "egg-future-capsule-dement-after-legend",
+            "name": "Dement ~after legend~",
+            "icon": "🎵",
+            "boost": 150,
+            "chance": 3
+          },
+          {
+            "id": "egg-future-capsule-fracture-ray",
+            "name": "Fracture Ray",
+            "icon": "🎵",
+            "boost": 500,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-collab-capsule",
+        "name": "Collab Capsule",
+        "icon": "🤝",
+        "color": "#ffb347",
+        "cost": 14000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-collab-capsule-deemo",
+            "name": "Deemo",
+            "icon": "🎹",
+            "boost": 20,
+            "chance": 45
+          },
+          {
+            "id": "egg-collab-capsule-cytus",
+            "name": "Cytus",
+            "icon": "🎧",
+            "boost": 50,
+            "chance": 28
+          },
+          {
+            "id": "egg-collab-capsule-lanota",
+            "name": "Lanota",
+            "icon": "🌐",
+            "boost": 120,
+            "chance": 15
+          },
+          {
+            "id": "egg-collab-capsule-dynamix",
+            "name": "Dynamix",
+            "icon": "🎛️",
+            "boost": 300,
+            "chance": 8
+          },
+          {
+            "id": "egg-collab-capsule-groove-coaster",
+            "name": "Groove Coaster",
+            "icon": "🎢",
+            "boost": 1200,
+            "chance": 3
+          },
+          {
+            "id": "egg-collab-capsule-chunithm",
+            "name": "CHUNITHM",
+            "icon": "🍥",
+            "boost": 4000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-note-capsule",
+        "name": "Note Capsule",
+        "icon": "🎼",
+        "color": "#ff8ad8",
+        "cost": 300000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-note-capsule-tap-note",
+            "name": "Tap Note",
+            "icon": "🔵",
+            "boost": 100,
+            "chance": 45
+          },
+          {
+            "id": "egg-note-capsule-hold-note",
+            "name": "Hold Note",
+            "icon": "🟦",
+            "boost": 250,
+            "chance": 28
+          },
+          {
+            "id": "egg-note-capsule-blue-arc",
+            "name": "Blue Arc",
+            "icon": "〰️",
+            "boost": 600,
+            "chance": 15
+          },
+          {
+            "id": "egg-note-capsule-red-arc",
+            "name": "Red Arc",
+            "icon": "🔴",
+            "boost": 1500,
+            "chance": 8
+          },
+          {
+            "id": "egg-note-capsule-arctap",
+            "name": "ArcTap",
+            "icon": "🔺",
+            "boost": 6000,
+            "chance": 3
+          },
+          {
+            "id": "egg-note-capsule-trace-arc",
+            "name": "Trace Arc",
+            "icon": "⚫",
+            "boost": 20000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-beyond-capsule",
+        "name": "Beyond Capsule",
+        "icon": "🌌",
+        "color": "#b45cff",
+        "cost": 60,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-beyond-capsule-grievous-lady",
+            "name": "Grievous Lady",
+            "icon": "🎵",
+            "boost": 200,
+            "chance": 45
+          },
+          {
+            "id": "egg-beyond-capsule-pentiment",
+            "name": "Pentiment",
+            "icon": "🎵",
+            "boost": 450,
+            "chance": 28
+          },
+          {
+            "id": "egg-beyond-capsule-sheriruth",
+            "name": "Sheriruth",
+            "icon": "🎵",
+            "boost": 1000,
+            "chance": 15
+          },
+          {
+            "id": "egg-beyond-capsule-ignotus",
+            "name": "Ignotus",
+            "icon": "🎵",
+            "boost": 2500,
+            "chance": 8
+          },
+          {
+            "id": "egg-beyond-capsule-fracture-ray",
+            "name": "Fracture Ray",
+            "icon": "🎵",
+            "boost": 8000,
+            "chance": 3
+          },
+          {
+            "id": "egg-beyond-capsule-tempestissimo",
+            "name": "Tempestissimo",
+            "icon": "🎵",
+            "boost": 25000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-eternal-capsule",
+        "name": "Eternal Capsule",
+        "icon": "♾️",
+        "color": "#ffd93b",
+        "cost": 2000,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-eternal-capsule-hikari-zero",
+            "name": "Hikari (Zero)",
+            "icon": "🤍",
+            "boost": 100000,
+            "chance": 50
+          },
+          {
+            "id": "egg-eternal-capsule-tairitsu-axium",
+            "name": "Tairitsu (Axium)",
+            "icon": "🖤",
+            "boost": 160000,
+            "chance": 30
+          },
+          {
+            "id": "egg-eternal-capsule-hikari-fatalis",
+            "name": "Hikari (Fatalis)",
+            "icon": "🔱",
+            "boost": 300000,
+            "chance": 12
+          },
+          {
+            "id": "egg-eternal-capsule-hikari-tairitsu-reunion",
+            "name": "Hikari & Tairitsu (Reunion)",
+            "icon": "💞",
+            "boost": 900000,
+            "chance": 6
+          },
+          {
+            "id": "egg-eternal-capsule-tairitsu-reunion",
+            "name": "Tairitsu (Reunion)",
+            "icon": "🌒",
+            "boost": 2500000,
+            "chance": 1.5
+          },
+          {
+            "id": "egg-eternal-capsule-hikari-axium",
+            "name": "Hikari (Axium)",
+            "icon": "🌟",
+            "boost": 12000000,
+            "chance": 0.5
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 60,
+          "steep": 0.08,
+          "hard": 120,
+          "cap": 100,
+          "discount": 10
+        }
+      }
+    ],
+    "inv": [],
+    "maxPets": 5
+  }
+}

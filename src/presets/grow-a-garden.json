@@ -1,0 +1,1497 @@
+{
+  "type": "statsim-save",
+  "version": 1,
+  "savedAt": "2026-10-30T00:00:00.000Z",
+  "preset": {
+    "title": "Grow a Garden",
+    "emoji": "🌱",
+    "blurb": "Plant seeds, ride out weather events and hatch a barnyard of boosting pets.",
+    "order": 5
+  },
+  "sim": {
+    "id": "sim-garden",
+    "name": "Garden Sim",
+    "titles": {
+      "shop": "Gear Shop",
+      "power": "Mutations",
+      "mult": "Garden Upgrades",
+      "weather": "Weather Events",
+      "pets": "Pets"
+    },
+    "cur": 500,
+    "gems": 50,
+    "interval": 1,
+    "curName": "Sheckles",
+    "curIcon": "🪙",
+    "gemName": "Honey",
+    "gemIcon": "🍯",
+    "shop": [
+      {
+        "id": "shop-watering-can",
+        "name": "Watering Can",
+        "icon": "🪣",
+        "val": 5,
+        "cost": 26,
+        "owned": 0
+      },
+      {
+        "id": "shop-trowel",
+        "name": "Trowel",
+        "icon": "🥄",
+        "val": 24,
+        "cost": 270,
+        "owned": 0
+      },
+      {
+        "id": "shop-garden-gloves",
+        "name": "Garden Gloves",
+        "icon": "🧤",
+        "val": 110,
+        "cost": 2700,
+        "owned": 0
+      },
+      {
+        "id": "shop-basic-sprinkler",
+        "name": "Basic Sprinkler",
+        "icon": "🌱",
+        "val": 500,
+        "cost": 29000,
+        "owned": 0
+      },
+      {
+        "id": "shop-advanced-sprinkler",
+        "name": "Advanced Sprinkler",
+        "icon": "🚿",
+        "val": 2200,
+        "cost": 300000,
+        "owned": 0
+      },
+      {
+        "id": "shop-harvest-tool",
+        "name": "Harvest Tool",
+        "icon": "✂️",
+        "val": 9700,
+        "cost": 3100000,
+        "owned": 0
+      },
+      {
+        "id": "shop-favorite-tool",
+        "name": "Favorite Tool",
+        "icon": "⭐",
+        "val": 42000,
+        "cost": 33000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-recall-wrench",
+        "name": "Recall Wrench",
+        "icon": "🔧",
+        "val": 180000,
+        "cost": 360000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-magnifying-glass",
+        "name": "Magnifying Glass",
+        "icon": "🔍",
+        "val": 820000,
+        "cost": 3800000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-cleaning-spray",
+        "name": "Cleaning Spray",
+        "icon": "🧴",
+        "val": 3600000,
+        "cost": 43000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-godly-sprinkler",
+        "name": "Godly Sprinkler",
+        "icon": "🌀",
+        "val": 16000000,
+        "cost": 470000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-lightning-rod",
+        "name": "Lightning Rod",
+        "icon": "⚡",
+        "val": 69000000,
+        "cost": 5000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-master-sprinkler",
+        "name": "Master Sprinkler",
+        "icon": "🏭",
+        "val": 300000000,
+        "cost": 55000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-friendship-pot",
+        "name": "Friendship Pot",
+        "icon": "🪴",
+        "val": 1400000000,
+        "cost": 590000000000000,
+        "owned": 0
+      },
+      {
+        "id": "shop-tanning-mirror",
+        "name": "Tanning Mirror",
+        "icon": "🪞",
+        "val": 6300000000,
+        "cost": 6700000000000000.0,
+        "owned": 0
+      },
+      {
+        "id": "shop-greenhouse",
+        "name": "Greenhouse",
+        "icon": "🏡",
+        "val": 30000000000,
+        "cost": 7.6e+16,
+        "owned": 0
+      }
+    ],
+    "equipped": null,
+    "powers": [
+      {
+        "id": "pow-fertilizer",
+        "name": "Fertilizer",
+        "icon": "🌱",
+        "mult": 1.5,
+        "cost": 5000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-wet",
+        "name": "Wet",
+        "icon": "💧",
+        "mult": 2,
+        "cost": 10,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-chilled",
+        "name": "Chilled",
+        "icon": "❄️",
+        "mult": 2,
+        "cost": 50000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-shocked",
+        "name": "Shocked",
+        "icon": "⚡",
+        "mult": 2,
+        "cost": 2000000,
+        "pay": "cur",
+        "bought": false
+      },
+      {
+        "id": "pow-moonlit",
+        "name": "Moonlit",
+        "icon": "🌕",
+        "mult": 4,
+        "cost": 60,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-frozen",
+        "name": "Frozen",
+        "icon": "🥶",
+        "mult": 5,
+        "cost": 100,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-bloodlit",
+        "name": "Bloodlit",
+        "icon": "🩸",
+        "mult": 6,
+        "cost": 180,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-golden",
+        "name": "Golden",
+        "icon": "🥇",
+        "mult": 8,
+        "cost": 350,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-rainbow",
+        "name": "Rainbow",
+        "icon": "🌈",
+        "mult": 10,
+        "cost": 600,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-celestial",
+        "name": "Celestial",
+        "icon": "☄️",
+        "mult": 15,
+        "cost": 1800,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-disco",
+        "name": "Disco",
+        "icon": "🪩",
+        "mult": 25,
+        "cost": 3000,
+        "pay": "gems",
+        "bought": false
+      },
+      {
+        "id": "pow-voidtouched",
+        "name": "Voidtouched",
+        "icon": "🕳️",
+        "mult": 50,
+        "cost": 10000,
+        "pay": "gems",
+        "bought": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "grp-seeds",
+        "name": "🌱 Seeds",
+        "color": "#5dff6a",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-seeds-1",
+            "name": "Carrot",
+            "cost": 450,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-seeds-2",
+            "name": "Strawberry",
+            "cost": 1800,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-seeds-3",
+            "name": "Tomato",
+            "cost": 9000,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-seeds-4",
+            "name": "Corn",
+            "cost": 45000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-seeds-5",
+            "name": "Watermelon",
+            "cost": 220000,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-seeds-6",
+            "name": "Pumpkin",
+            "cost": 1400000,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-seeds-7",
+            "name": "Apple",
+            "cost": 9000000,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-seeds-8",
+            "name": "Bamboo",
+            "cost": 72000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-exotic-seeds",
+        "name": "🍍 Exotic Seeds",
+        "color": "#ff9a3b",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-exotic-seeds-1",
+            "name": "Coconut",
+            "cost": 5,
+            "val": 0.25,
+            "bought": false
+          },
+          {
+            "id": "grp-exotic-seeds-2",
+            "name": "Cactus",
+            "cost": 15,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-exotic-seeds-3",
+            "name": "Dragon Fruit",
+            "cost": 40,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-exotic-seeds-4",
+            "name": "Mango",
+            "cost": 100,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-exotic-seeds-5",
+            "name": "Grape",
+            "cost": 250,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-exotic-seeds-6",
+            "name": "Mushroom",
+            "cost": 600,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-exotic-seeds-7",
+            "name": "Pepper",
+            "cost": 1500,
+            "val": 16,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-plots",
+        "name": "🏡 Plots",
+        "color": "#4fb6ff",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-plots-1",
+            "name": "Backyard",
+            "cost": 900,
+            "val": 0.3,
+            "bought": false
+          },
+          {
+            "id": "grp-plots-2",
+            "name": "Side Garden",
+            "cost": 7200,
+            "val": 0.6,
+            "bought": false
+          },
+          {
+            "id": "grp-plots-3",
+            "name": "Orchard",
+            "cost": 63000,
+            "val": 1.2,
+            "bought": false
+          },
+          {
+            "id": "grp-plots-4",
+            "name": "Farmland",
+            "cost": 540000,
+            "val": 2.4,
+            "bought": false
+          },
+          {
+            "id": "grp-plots-5",
+            "name": "Floating Island",
+            "cost": 4500000,
+            "val": 4.8,
+            "bought": false
+          },
+          {
+            "id": "grp-plots-6",
+            "name": "Garden Kingdom",
+            "cost": 40000000,
+            "val": 9.6,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-upgrades",
+        "name": "🌾 Upgrades",
+        "color": "#ffd93b",
+        "pay": "cur",
+        "items": [
+          {
+            "id": "grp-upgrades-1",
+            "name": "Compost Bin",
+            "cost": 900,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-upgrades-2",
+            "name": "Soil Boost",
+            "cost": 22000,
+            "val": 1,
+            "bought": false
+          },
+          {
+            "id": "grp-upgrades-3",
+            "name": "Mulch",
+            "cost": 450000,
+            "val": 2,
+            "bought": false
+          },
+          {
+            "id": "grp-upgrades-4",
+            "name": "Trellis",
+            "cost": 9000000,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-upgrades-5",
+            "name": "Drip Irrigation",
+            "cost": 180000000,
+            "val": 8,
+            "bought": false
+          },
+          {
+            "id": "grp-upgrades-6",
+            "name": "Greenhouse Dome",
+            "cost": 3600000000,
+            "val": 16,
+            "bought": false
+          },
+          {
+            "id": "grp-upgrades-7",
+            "name": "Hydroponics",
+            "cost": 90000000000,
+            "val": 32,
+            "bought": false
+          },
+          {
+            "id": "grp-upgrades-8",
+            "name": "Auto Harvester",
+            "cost": 2700000000000,
+            "val": 64,
+            "bought": false
+          }
+        ]
+      },
+      {
+        "id": "grp-honey-shop",
+        "name": "🍯 Honey Shop",
+        "color": "#ffb347",
+        "pay": "gems",
+        "items": [
+          {
+            "id": "grp-honey-shop-1",
+            "name": "Flower Seed Pack",
+            "cost": 30,
+            "val": 0.5,
+            "bought": false
+          },
+          {
+            "id": "grp-honey-shop-2",
+            "name": "Nectarine",
+            "cost": 120,
+            "val": 1.5,
+            "bought": false
+          },
+          {
+            "id": "grp-honey-shop-3",
+            "name": "Hive Fruit",
+            "cost": 400,
+            "val": 4,
+            "bought": false
+          },
+          {
+            "id": "grp-honey-shop-4",
+            "name": "Honey Sprinkler",
+            "cost": 1200,
+            "val": 10,
+            "bought": false
+          },
+          {
+            "id": "grp-honey-shop-5",
+            "name": "Nectar Staff",
+            "cost": 4000,
+            "val": 25,
+            "bought": false
+          }
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "id": "wx-fair-weather",
+        "name": "Fair Weather",
+        "icon": "🌤️",
+        "fx": "none",
+        "mult": 1.5,
+        "duration": 120
+      },
+      {
+        "id": "wx-sunshine",
+        "name": "Sunshine",
+        "icon": "☀️",
+        "fx": "sun",
+        "mult": 2,
+        "duration": 60
+      },
+      {
+        "id": "wx-rain",
+        "name": "Rain",
+        "icon": "🌧️",
+        "fx": "rain",
+        "mult": 3,
+        "duration": 45
+      },
+      {
+        "id": "wx-thunderstorm",
+        "name": "Thunderstorm",
+        "icon": "⛈️",
+        "fx": "storm",
+        "mult": 6,
+        "duration": 30
+      },
+      {
+        "id": "wx-night",
+        "name": "Night",
+        "icon": "🌙",
+        "fx": "none",
+        "mult": 5,
+        "duration": 25
+      },
+      {
+        "id": "wx-bee-swarm",
+        "name": "Bee Swarm",
+        "icon": "🐝",
+        "fx": "sun",
+        "mult": 7,
+        "duration": 30
+      },
+      {
+        "id": "wx-frost",
+        "name": "Frost",
+        "icon": "🥶",
+        "fx": "snow",
+        "mult": 8,
+        "duration": 20
+      },
+      {
+        "id": "wx-disco",
+        "name": "Disco",
+        "icon": "🪩",
+        "fx": "none",
+        "mult": 10,
+        "duration": 20
+      },
+      {
+        "id": "wx-meteor-shower",
+        "name": "Meteor Shower",
+        "icon": "☄️",
+        "fx": "storm",
+        "mult": 12,
+        "duration": 15
+      },
+      {
+        "id": "wx-tornado",
+        "name": "Tornado",
+        "icon": "🌪️",
+        "fx": "storm",
+        "mult": 20,
+        "duration": 10
+      },
+      {
+        "id": "wx-blizzard",
+        "name": "Blizzard",
+        "icon": "🌨️",
+        "fx": "snow",
+        "mult": 25,
+        "duration": 15
+      },
+      {
+        "id": "wx-admin-abuse",
+        "name": "Admin Abuse",
+        "icon": "🎁",
+        "fx": "none",
+        "mult": 100,
+        "duration": 5
+      }
+    ],
+    "activeWeather": null,
+    "weatherLeft": 0,
+    "runtime": 0,
+    "totalRuntime": 0,
+    "rb": {
+      "count": 0,
+      "baseCost": 1000000,
+      "scale": 2.5,
+      "bonus": 1,
+      "gems": 25,
+      "resetShop": true,
+      "resetMult": false
+    },
+    "quests": [
+      {
+        "id": "q-first-sheckles",
+        "name": "First Sheckles",
+        "metric": "earned",
+        "target": 100,
+        "reward": 50,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pocket-sheckles",
+        "name": "Pocket Sheckles",
+        "metric": "earned",
+        "target": 10000,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-sheckle-stash",
+        "name": "Sheckle Stash",
+        "metric": "earned",
+        "target": 1000000,
+        "reward": 25,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-sheckle-millionaire",
+        "name": "Sheckle Millionaire",
+        "metric": "earned",
+        "target": 100000000,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-orchard-baron",
+        "name": "Orchard Baron",
+        "metric": "earned",
+        "target": 10000000000.0,
+        "reward": 400,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-garden-tycoon",
+        "name": "Garden Tycoon",
+        "metric": "earned",
+        "target": 10000000000000.0,
+        "reward": 1500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-green-thumb",
+        "name": "Green Thumb",
+        "metric": "manual",
+        "target": 25,
+        "reward": 1,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-busy-hands",
+        "name": "Busy Hands",
+        "metric": "manual",
+        "target": 250,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-blister-farmer",
+        "name": "Blister Farmer",
+        "metric": "manual",
+        "target": 2500,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-sprinkler-setup",
+        "name": "Sprinkler Setup",
+        "metric": "auto",
+        "target": 100,
+        "reward": 200,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-auto-harvest",
+        "name": "Auto Harvest",
+        "metric": "auto",
+        "target": 5000,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-garden-never-sleeps",
+        "name": "Garden Never Sleeps",
+        "metric": "auto",
+        "target": 100000,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-gear-shopper",
+        "name": "Gear Shopper",
+        "metric": "shopBuys",
+        "target": 3,
+        "reward": 100,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-tool-collector",
+        "name": "Tool Collector",
+        "metric": "shopBuys",
+        "target": 9,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-gear-hoarder",
+        "name": "Gear Hoarder",
+        "metric": "shopBuys",
+        "target": 18,
+        "reward": 100,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-master-gardener",
+        "name": "Master Gardener",
+        "metric": "shopBuys",
+        "target": 54,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-seed-starter",
+        "name": "Seed Starter",
+        "metric": "multBuys",
+        "target": 3,
+        "reward": 500,
+        "pay": "cur",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-crop-rotator",
+        "name": "Crop Rotator",
+        "metric": "multBuys",
+        "target": 15,
+        "reward": 20,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-full-greenhouse",
+        "name": "Full Greenhouse",
+        "metric": "multBuys",
+        "target": 40,
+        "reward": 120,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-mutation-spotted",
+        "name": "Mutation Spotted",
+        "metric": "powerBuys",
+        "target": 1,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-mutation-hunter",
+        "name": "Mutation Hunter",
+        "metric": "powerBuys",
+        "target": 6,
+        "reward": 40,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-rainbow-dreams",
+        "name": "Rainbow Dreams",
+        "metric": "powerBuys",
+        "target": 14,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-first-egg",
+        "name": "First Egg",
+        "metric": "hatches",
+        "target": 3,
+        "reward": 2,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pet-owner",
+        "name": "Pet Owner",
+        "metric": "hatches",
+        "target": 25,
+        "reward": 15,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-egg-hoarder",
+        "name": "Egg Hoarder",
+        "metric": "hatches",
+        "target": 100,
+        "reward": 60,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-zoo-keeper",
+        "name": "Zoo Keeper",
+        "metric": "hatches",
+        "target": 500,
+        "reward": 300,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-pet-empire",
+        "name": "Pet Empire",
+        "metric": "hatches",
+        "target": 2000,
+        "reward": 1000,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-fresh-start",
+        "name": "Fresh Start",
+        "metric": "rebirth",
+        "target": 1,
+        "reward": 10,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-prestige-gardener",
+        "name": "Prestige Gardener",
+        "metric": "rebirth",
+        "target": 5,
+        "reward": 75,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-garden-god",
+        "name": "Garden God",
+        "metric": "rebirth",
+        "target": 20,
+        "reward": 500,
+        "pay": "gems",
+        "repeat": false,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-quick-watering-2-min",
+        "name": "Quick Watering (2 min)",
+        "metric": "runtime",
+        "target": 120,
+        "reward": 5,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-harvest-run-10-min",
+        "name": "Harvest Run (10 min)",
+        "metric": "runtime",
+        "target": 600,
+        "reward": 30,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      },
+      {
+        "id": "q-full-day-farm-1-hr",
+        "name": "Full Day Farm (1 hr)",
+        "metric": "runtime",
+        "target": 3600,
+        "reward": 150,
+        "pay": "gems",
+        "repeat": true,
+        "base": 0,
+        "claimed": false
+      }
+    ],
+    "petGroups": [
+      {
+        "id": "egg-common-egg",
+        "name": "Common Egg",
+        "icon": "🥚",
+        "color": "#bfeaff",
+        "cost": 85,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-common-egg-dog",
+            "name": "Dog",
+            "icon": "🐶",
+            "boost": 0.1,
+            "chance": 55
+          },
+          {
+            "id": "egg-common-egg-bunny",
+            "name": "Bunny",
+            "icon": "🐰",
+            "boost": 0.15,
+            "chance": 25
+          },
+          {
+            "id": "egg-common-egg-golden-lab",
+            "name": "Golden Lab",
+            "icon": "🦮",
+            "boost": 0.25,
+            "chance": 12
+          },
+          {
+            "id": "egg-common-egg-black-bunny",
+            "name": "Black Bunny",
+            "icon": "🐇",
+            "boost": 0.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-common-egg-chicken",
+            "name": "Chicken",
+            "icon": "🐔",
+            "boost": 1.5,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 20,
+          "steep": 0.2,
+          "hard": 40,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-uncommon-egg",
+        "name": "Uncommon Egg",
+        "icon": "🟢",
+        "color": "#3fbf5a",
+        "cost": 2100,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-uncommon-egg-cat",
+            "name": "Cat",
+            "icon": "🐱",
+            "boost": 0.3,
+            "chance": 50
+          },
+          {
+            "id": "egg-uncommon-egg-deer",
+            "name": "Deer",
+            "icon": "🦌",
+            "boost": 0.6,
+            "chance": 28
+          },
+          {
+            "id": "egg-uncommon-egg-rooster",
+            "name": "Rooster",
+            "icon": "🐓",
+            "boost": 1.2,
+            "chance": 14
+          },
+          {
+            "id": "egg-uncommon-egg-spotted-deer",
+            "name": "Spotted Deer",
+            "icon": "🫎",
+            "boost": 2.5,
+            "chance": 6
+          },
+          {
+            "id": "egg-uncommon-egg-orange-tabby",
+            "name": "Orange Tabby",
+            "icon": "🐈",
+            "boost": 12,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-rare-egg",
+        "name": "Rare Egg",
+        "icon": "🔵",
+        "color": "#4fb6ff",
+        "cost": 34000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-rare-egg-pig",
+            "name": "Pig",
+            "icon": "🐷",
+            "boost": 1.5,
+            "chance": 48
+          },
+          {
+            "id": "egg-rare-egg-monkey",
+            "name": "Monkey",
+            "icon": "🐒",
+            "boost": 3,
+            "chance": 30
+          },
+          {
+            "id": "egg-rare-egg-cow",
+            "name": "Cow",
+            "icon": "🐄",
+            "boost": 6,
+            "chance": 14
+          },
+          {
+            "id": "egg-rare-egg-turtle",
+            "name": "Turtle",
+            "icon": "🐢",
+            "boost": 12,
+            "chance": 6
+          },
+          {
+            "id": "egg-rare-egg-silver-monkey",
+            "name": "Silver Monkey",
+            "icon": "🐵",
+            "boost": 60,
+            "chance": 2
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 25,
+          "steep": 0.18,
+          "hard": 50,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-legendary-egg",
+        "name": "Legendary Egg",
+        "icon": "🟣",
+        "color": "#c25cff",
+        "cost": 510000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-legendary-egg-sea-otter",
+            "name": "Sea Otter",
+            "icon": "🦦",
+            "boost": 5,
+            "chance": 45
+          },
+          {
+            "id": "egg-legendary-egg-polar-bear",
+            "name": "Polar Bear",
+            "icon": "🐻‍❄️",
+            "boost": 10,
+            "chance": 28
+          },
+          {
+            "id": "egg-legendary-egg-brown-mouse",
+            "name": "Brown Mouse",
+            "icon": "🐭",
+            "boost": 25,
+            "chance": 15
+          },
+          {
+            "id": "egg-legendary-egg-grey-mouse",
+            "name": "Grey Mouse",
+            "icon": "🐁",
+            "boost": 60,
+            "chance": 8
+          },
+          {
+            "id": "egg-legendary-egg-squirrel",
+            "name": "Squirrel",
+            "icon": "🐿️",
+            "boost": 150,
+            "chance": 3
+          },
+          {
+            "id": "egg-legendary-egg-red-fox",
+            "name": "Red Fox",
+            "icon": "🦊",
+            "boost": 500,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-bug-egg",
+        "name": "Bug Egg",
+        "icon": "🐛",
+        "color": "#ffb347",
+        "cost": 10000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-bug-egg-snail",
+            "name": "Snail",
+            "icon": "🐌",
+            "boost": 20,
+            "chance": 45
+          },
+          {
+            "id": "egg-bug-egg-caterpillar",
+            "name": "Caterpillar",
+            "icon": "🐛",
+            "boost": 50,
+            "chance": 28
+          },
+          {
+            "id": "egg-bug-egg-giant-ant",
+            "name": "Giant Ant",
+            "icon": "🐜",
+            "boost": 120,
+            "chance": 15
+          },
+          {
+            "id": "egg-bug-egg-praying-mantis",
+            "name": "Praying Mantis",
+            "icon": "🦗",
+            "boost": 300,
+            "chance": 8
+          },
+          {
+            "id": "egg-bug-egg-dragonfly",
+            "name": "Dragonfly",
+            "icon": "🪲",
+            "boost": 1200,
+            "chance": 3
+          },
+          {
+            "id": "egg-bug-egg-butterfly",
+            "name": "Butterfly",
+            "icon": "🦋",
+            "boost": 4000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 30,
+          "steep": 0.15,
+          "hard": 60,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-night-egg",
+        "name": "Night Egg",
+        "icon": "🌙",
+        "color": "#7a5cff",
+        "cost": 210000000,
+        "pay": "cur",
+        "pets": [
+          {
+            "id": "egg-night-egg-hedgehog",
+            "name": "Hedgehog",
+            "icon": "🦔",
+            "boost": 100,
+            "chance": 45
+          },
+          {
+            "id": "egg-night-egg-mole",
+            "name": "Mole",
+            "icon": "🦫",
+            "boost": 250,
+            "chance": 28
+          },
+          {
+            "id": "egg-night-egg-frog",
+            "name": "Frog",
+            "icon": "🐸",
+            "boost": 600,
+            "chance": 15
+          },
+          {
+            "id": "egg-night-egg-echo-frog",
+            "name": "Echo Frog",
+            "icon": "🐸",
+            "boost": 1500,
+            "chance": 8
+          },
+          {
+            "id": "egg-night-egg-night-owl",
+            "name": "Night Owl",
+            "icon": "🦉",
+            "boost": 6000,
+            "chance": 3
+          },
+          {
+            "id": "egg-night-egg-raccoon",
+            "name": "Raccoon",
+            "icon": "🦝",
+            "boost": 20000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 0
+        }
+      },
+      {
+        "id": "egg-bee-egg",
+        "name": "Bee Egg",
+        "icon": "🐝",
+        "color": "#ffd93b",
+        "cost": 60,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-bee-egg-bee",
+            "name": "Bee",
+            "icon": "🐝",
+            "boost": 200,
+            "chance": 45
+          },
+          {
+            "id": "egg-bee-egg-honey-bee",
+            "name": "Honey Bee",
+            "icon": "🍯",
+            "boost": 450,
+            "chance": 28
+          },
+          {
+            "id": "egg-bee-egg-bear-bee",
+            "name": "Bear Bee",
+            "icon": "🧸",
+            "boost": 1000,
+            "chance": 15
+          },
+          {
+            "id": "egg-bee-egg-petal-bee",
+            "name": "Petal Bee",
+            "icon": "🌸",
+            "boost": 2500,
+            "chance": 8
+          },
+          {
+            "id": "egg-bee-egg-queen-bee",
+            "name": "Queen Bee",
+            "icon": "👑",
+            "boost": 8000,
+            "chance": 3
+          },
+          {
+            "id": "egg-bee-egg-disco-bee",
+            "name": "Disco Bee",
+            "icon": "🪩",
+            "boost": 25000,
+            "chance": 1
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 3,
+          "mid": 35,
+          "steep": 0.13,
+          "hard": 70,
+          "cap": 100,
+          "discount": 5
+        }
+      },
+      {
+        "id": "egg-zen-egg",
+        "name": "Zen Egg",
+        "icon": "⛩️",
+        "color": "#ff8ad8",
+        "cost": 2000,
+        "pay": "gems",
+        "pets": [
+          {
+            "id": "egg-zen-egg-shiba-inu",
+            "name": "Shiba Inu",
+            "icon": "🐕",
+            "boost": 100000,
+            "chance": 50
+          },
+          {
+            "id": "egg-zen-egg-nihonzaru",
+            "name": "Nihonzaru",
+            "icon": "🐒",
+            "boost": 160000,
+            "chance": 30
+          },
+          {
+            "id": "egg-zen-egg-tanuki",
+            "name": "Tanuki",
+            "icon": "🦝",
+            "boost": 300000,
+            "chance": 12
+          },
+          {
+            "id": "egg-zen-egg-tanchozuru",
+            "name": "Tanchozuru",
+            "icon": "🦢",
+            "boost": 900000,
+            "chance": 6
+          },
+          {
+            "id": "egg-zen-egg-kappa",
+            "name": "Kappa",
+            "icon": "🥒",
+            "boost": 2500000,
+            "chance": 1.5
+          },
+          {
+            "id": "egg-zen-egg-kitsune",
+            "name": "Kitsune",
+            "icon": "🦊",
+            "boost": 12000000,
+            "chance": 0.5
+          }
+        ],
+        "gacha": {
+          "enabled": true,
+          "rareBelow": 2,
+          "mid": 60,
+          "steep": 0.08,
+          "hard": 120,
+          "cap": 100,
+          "discount": 10
+        }
+      }
+    ],
+    "inv": [],
+    "maxPets": 5
+  }
+}
